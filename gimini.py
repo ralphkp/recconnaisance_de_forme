@@ -9,9 +9,9 @@ import json
 genai.configure(api_key="AIzaSyB27wQtaCxAN3sQY_eMI02M0No2FCPt4g4")
 
 
-# Charger les informations depuis un fichier JSON
-with open(r'D:\projet_RDF\recconnaisance_de_forme\data\job_offer_content.json') as f:
-    data = json.load(f)
+# Lire le fichier JSON avec l'encodage spécifié
+with open(r'D:\projet_RDF\recconnaisance_de_forme\data\job_offer_content.json', 'r', encoding='utf-8') as file:
+    data = json.load(file)
     
 # Set up the model
 generation_config = {
@@ -51,6 +51,13 @@ result = convo.last.text
 
 # Générer 10 questions d'entretien en fonction des informations du fichier JSON
 for i in range(10):
-    convo.send_message("Quelle est votre question suivante?")
+    convo.send_message("Quelle est votre question d'entretien suivante baser sur les technologies presenter dans le cv?")
     print(convo.last.text)
+
+# Filtrer uniquement les messages qui sont des questions
+questions = [message['content'] for message in data['messages'] if '?' in message['content']]
+
+# Afficher les questions
+for question in questions:
+    print(question)
     
