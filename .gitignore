@@ -10,6 +10,7 @@ Thumbs.db
 /build/
 /dist/
 /out/
+labo/
 
 # Ignore dependencies and package managers
 /node_modules/
