@@ -1,4 +1,5 @@
 import streamlit as st
+import requests
 
 def main():
     st.title('Simulateur d\'Interview Groupe 1')
@@ -23,14 +24,29 @@ def main():
     else:
         st.warning("Veuillez télécharger un CV et une description de poste pour générer des questions.")
 
+import requests
+
 def analyze_documents(cv, job_desc):
-    # Cette fonction est un placeholder pour votre logique d'analyse de documents
-    # Ici, retourner une liste de questions simulées
-    return [
-        "Décrivez une situation où vous avez dû travailler en équipe.",
-        "Quels sont vos points forts qui correspondent à ce poste ?",
-        "Pouvez-vous donner un exemple de défi professionnel et comment vous l'avez surmonté ?"
-    ]
+    # Adresse de l'API du serveur Flask
+    url = 'http://127.0.0.1:5000/upload'  # Assurez-vous que cette URL est correcte
+
+    # Préparer les fichiers à envoyer
+    files = {
+        'cv': (cv.name, cv, cv.type),
+        'job_offer': (job_desc.name, job_desc, job_desc.type)
+    }
+
+    # Effectuer la requête POST
+    response = requests.post(url, files=files)
+
+    if response.status_code == 200:
+        # Traitement réussi, recevoir les données
+        questions = response.json()  # Assumant que le serveur renvoie une liste de questions en JSON
+        return questions
+    else:
+        # Gérer les erreurs
+        return ["Erreur lors de la communication avec le serveur."]
+
 
 if __name__ == "__main__":
     main()
