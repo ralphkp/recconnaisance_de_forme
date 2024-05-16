@@ -1,5 +1,6 @@
 import streamlit as st
 import requests
+import pandas as pd  # Importer pandas pour la manipulation de données
 
 def main():
     st.title('Simulateur d\'Interview Groupe 1')
@@ -16,37 +17,42 @@ def main():
         
         # Bouton pour simuler l'interview
         if st.button('Simuler l\'Interview'):
-            st.header('Questions d\'Interview Suggérées')
-            # Simuler une fonction d'analyse des fichiers
-            questions = analyze_documents(uploaded_cv, uploaded_job_description)
-            for question in questions:
-                st.markdown(f"- {question}")
+            with st.spinner('Le processus peut prendre quelques minutes. Veuillez patienter...'):
+                session_data = simulate_interview(uploaded_cv, uploaded_job_description)
+                if session_data:
+                    cv_questions_path = session_data.get('cv_questions_file')
+                    job_offer_questions_path = session_data.get('job_offer_questions_file')
+                    
+                    # Récupérer et afficher les questions du CV
+                    cv_questions = requests.get(f'http://127.0.0.1:5000/download/{cv_questions_path}').json()
+                    job_offer_questions = requests.get(f'http://127.0.0.1:5000/download/{job_offer_questions_path}').json()
+                   
+                    questions_df = pd.DataFrame({
+                        "Questions CV": cv_questions,
+                        "Questions Offre": job_offer_questions,
+                       
+                    })
+                    st.table(questions_df)
+                    st.success('Traitement terminé!')
+                else:
+                    st.error("Aucune question n'a été générée.")
     else:
         st.warning("Veuillez télécharger un CV et une description de poste pour générer des questions.")
 
-import requests
-
-def analyze_documents(cv, job_desc):
-    # Adresse de l'API du serveur Flask
+def simulate_interview(cv, job_desc):
     url = 'http://127.0.0.1:5000/upload'  # Assurez-vous que cette URL est correcte
-
-    # Préparer les fichiers à envoyer
     files = {
         'cv': (cv.name, cv, cv.type),
         'job_offer': (job_desc.name, job_desc, job_desc.type)
     }
 
-    # Effectuer la requête POST
-    response = requests.post(url, files=files)
-
-    if response.status_code == 200:
-        # Traitement réussi, recevoir les données
-        questions = response.json()  # Assumant que le serveur renvoie une liste de questions en JSON
-        return questions
-    else:
-        # Gérer les erreurs
-        return ["Erreur lors de la communication avec le serveur."]
-
+    try:
+        response = requests.post(url, files=files)
+        response.raise_for_status()  # Ceci lèvera une exception si la réponse est une erreur
+        return response.json()  # Assumant que le serveur renvoie les chemins des fichiers JSON
+    except requests.exceptions.RequestException as e:  # Gérer les exceptions liées aux requêtes
+        st.error(f"Erreur de communication avec le serveur: {str(e)}")
+        return None
 
 if __name__ == "__main__":
     main()

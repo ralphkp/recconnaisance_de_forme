@@ -1,39 +1,36 @@
 import nltk
 nltk.download('stopwords')
 import subprocess
-from flask import Flask, render_template, request, send_from_directory
+from flask import Flask, render_template, request, send_from_directory, jsonify, abort
 import os
 import json
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from pdfminer.high_level import extract_text
-from utils import compare_similarity,compare_similarity,remove_stopwords
+from utils import compare_similarity, remove_stopwords
 from fuzzywuzzy import fuzz
 import re
 import uuid
-import sys
-from flask import jsonify
 from werkzeug.utils import secure_filename
 import warnings
 from urllib3.exceptions import InsecureRequestWarning
 
 warnings.simplefilter('ignore', InsecureRequestWarning)
 
-
-
 app = Flask(__name__)
-
-#UPLOAD_FOLDER = 'data'
 UPLOAD_FOLDER_BASE = 'data'
-#app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
 # Création des dossiers si nécessaire
 if not os.path.exists(UPLOAD_FOLDER_BASE):
     os.makedirs(UPLOAD_FOLDER_BASE)
 
+app.config['UPLOAD_FOLDER_BASE'] = UPLOAD_FOLDER_BASE
 
 def extract_text_from_pdf(pdf_path):
     """Extrait le texte d'un fichier PDF."""
     return extract_text(pdf_path)
+
+
 def segment_text_into_sections(text, doc_type):
     """Segmenter le texte en sections prédéfinies en fonction du type de document."""
     sections_regex = {
@@ -98,6 +95,10 @@ def upload_files():
     job_offer_text = extract_text_from_pdf(job_offer_path)
     cv_sections = segment_text_into_sections(cv_text, "cv")
     job_offer_sections = segment_text_into_sections(job_offer_text, "job_offer")
+    # Calcul de la similarité
+    similarity_score = compare_similarity(cv_sections, job_offer_sections)
+
+  
     cv_json_path = os.path.join(session_folder, 'cv_results.json')
     job_offer_json_path = os.path.join(session_folder, 'job_offer_results.json')
     with open(cv_json_path, 'w', encoding='utf-8') as cv_f:
@@ -106,15 +107,38 @@ def upload_files():
         json.dump(job_offer_sections, job_f, ensure_ascii=False, indent=4)
     command = ['python', 'gemini.py', session_id]
     subprocess.run(command, cwd=os.path.dirname(os.path.abspath(__file__)))
+     # Chemins vers les fichiers de questions
+    cv_questions_path = os.path.join(session_folder, 'cv_questions.json')
+    job_offer_questions_path = os.path.join(session_folder, 'job_offer_questions.json')
+
     return jsonify({
         'session_id': session_id,
         'cv_json_file': cv_json_path,
-        'job_offer_json_file': job_offer_json_path
+        'job_offer_json_file': job_offer_json_path,
+        'cv_questions_file': cv_questions_path,
+        'job_offer_questions_file': job_offer_questions_path,
+        'similarity_score': similarity_score
     })
-
+    
 @app.route('/download/<path:filename>')
 def download_file(filename):
-    return send_from_directory(UPLOAD_FOLDER_BASE, filename, as_attachment=True)
+    # Supprimer le préfixe redondant si présent
+    if filename.startswith('data/'):
+        filename = filename[5:]  # Retirer le préfixe 'data/'
+
+    filepath = os.path.join(UPLOAD_FOLDER_BASE, filename)
+    print(f"Tentative d'accès au fichier : {filepath}")  # Log pour vérification
+
+    # Vérifier si le fichier existe
+    if not os.path.exists(filepath):
+        print("Fichier non trouvé")
+        abort(404, description="Fichier non trouvé")  # Envoyer une erreur 404 si le fichier n'existe pas
+
+    directory = os.path.dirname(filepath)
+    filename = os.path.basename(filepath)
+    return send_from_directory(directory, filename, as_attachment=True)
+
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
