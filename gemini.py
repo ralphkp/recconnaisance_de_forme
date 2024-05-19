@@ -44,13 +44,27 @@ def generate_questions(model, data, data_type):
     questions_dict = {}
     convo = model.start_chat(history=[])
     convo.send_message(json.dumps(data))
-    for i in range(10):
-        prompt = f"Quelle est votre question d'entretien suivante basée sur les technologies présentées dans le {data_type}?"
+    for i in range(1):
+        #prompt = f"Quelle est votre question d'entretien suivante basée sur les technologies présentées dans le {data_type}?"
+        prompt = f"Donne moi 10 questions plus les reponses correspondantes de manière structurer dans ce {data_type}?"
         convo.send_message(prompt)
         response = convo.last.text.strip()
-        clean_response = response.replace(f"Question d'entretien suivante possible basée sur les technologies présentées dans le {data_type} :", "").strip()
-        questions_dict[f"{data_type}_question_{i+1}"] = clean_response
+        # Nettoyage des réponses pour enlever les phrases introductives indésirables
+        phrases_to_remove = [
+            "Question d'entretien possible basée sur les technologies présentées dans l'offre d'emploi :",
+            "Voici quelques questions d'entretien possibles basée sur les technologies présentées dans le CV :",
+            "Question d'entretien suivante possible basée sur les technologies présentées dans le  CV :",
+            "Question d'entretien suivante possible basée sur les technologies présentées dans l'offre d'emploi :",
+            "Voici une autre question d'entretien possible basée sur les technologies présentées dans le CV",
+            "Questions d'entretien supplémentaires basées sur le CV"
+            
+        ]
+        for phrase in phrases_to_remove:
+            response = response.replace(phrase, "").strip()
+        # Enregistrer la réponse nettoyée
+        questions_dict[f"{data_type}_question_{i+1}"] = response
     return questions_dict
+
 
 def save_questions(questions, session_id, data_type):
     output_path = f'data/{session_id}/{data_type}_questions.json'
