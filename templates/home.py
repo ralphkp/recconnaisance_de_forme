@@ -3,6 +3,19 @@ import requests
 import pandas as pd  # Importer pandas pour la manipulation de données
 
 def main():
+    st.set_page_config(page_title="Simulateur d'Interview", page_icon=":briefcase:")
+    
+    # Utilisation du sidebar pour choisir l'interface
+    with st.sidebar:
+        st.header('Navigation')
+        page = st.selectbox("Choisissez une page", ["Utilisateur", "Administrateur"])
+
+    if page == "Utilisateur":
+        show_user_interface()
+    elif page == "Administrateur":
+        show_admin_interface()
+
+def show_user_interface():
     st.title('Simulateur d\'Interview Groupe 1')
 
     # Utilisation du sidebar pour les uploads de fichiers
@@ -29,24 +42,16 @@ def main():
                     try:
                         cv_questions = requests.get(f'http://127.0.0.1:5000/download/{cv_questions_path}').json()
                         job_offer_questions = requests.get(f'http://127.0.0.1:5000/download/{job_offer_questions_path}').json()
-                        
+
                         # Affichage des questions et réponses pour le CV
                         st.subheader("Le CV")
-                        for question, answer in cv_questions.items():
-                            col1, col2 = st.columns([1, 2])
-                            with col1:
-                                st.text("Question: " + question)
-                            with col2:
-                                st.text("Réponse: " + answer)
+                        cv_df = pd.DataFrame(list(cv_questions.items()), columns=['Question', 'Réponse'])
+                        st.dataframe(cv_df)
                         
                         # Affichage des questions et réponses pour l'Offre d'Emploi
                         st.subheader("L'Offre d'Emploi")
-                        for question, answer in job_offer_questions.items():
-                            col1, col2 = st.columns([1, 2])
-                            with col1:
-                                st.text("Question: " + question)
-                            with col2:
-                                st.text("Réponse: " + answer)
+                        job_offer_df = pd.DataFrame(list(job_offer_questions.items()), columns=['Question', 'Réponse'])
+                        st.dataframe(job_offer_df)
                         
                         st.success('Traitement terminé!')
                     except Exception as e:
@@ -55,6 +60,11 @@ def main():
                     st.error("Aucune question n'a été générée.")
     else:
         st.warning("Veuillez télécharger un CV et une description de poste pour générer des questions.")
+
+def show_admin_interface():
+    st.title("Interface Administrateur")
+    # Ajoutez ici le code pour afficher l'interface administrateur
+    st.write("Bienvenue dans l'interface administrateur.")
 
 def simulate_interview(cv, job_desc):
     url = 'http://127.0.0.1:5000/upload'
