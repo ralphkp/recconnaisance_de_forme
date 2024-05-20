@@ -46,7 +46,7 @@ def generate_questions(model, data, data_type):
     convo.send_message(json.dumps(data))
     for i in range(1):
         #prompt = f"Quelle est votre question d'entretien suivante basée sur les technologies présentées dans le {data_type}?"
-        prompt = f"Donne moi 10 questions plus les reponses correspondantes de manière structurer dans ce {data_type}?"
+        prompt = f"Donne moi 10 questions serieuses et dignes d'un entretien de qualité plus les reponses correspondantes de manière structurer  dans ce {data_type}?"
         convo.send_message(prompt)
         response = convo.last.text.strip()
         # Nettoyage des réponses pour enlever les phrases introductives indésirables

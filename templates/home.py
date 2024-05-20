@@ -20,6 +20,9 @@ def main():
             with st.spinner('Le processus peut prendre quelques minutes. Veuillez patienter...'):
                 session_data = simulate_interview(uploaded_cv, uploaded_job_description)
                 if session_data:
+                    similarity_score = session_data.get('similarity_score')
+                    st.write(f"Score de similarité: {similarity_score}")  # Affichage du score de similarité
+
                     cv_questions_path = session_data.get('cv_questions_file')
                     job_offer_questions_path = session_data.get('job_offer_questions_file')
                     
@@ -28,7 +31,7 @@ def main():
                         job_offer_questions = requests.get(f'http://127.0.0.1:5000/download/{job_offer_questions_path}').json()
                         
                         # Affichage des questions et réponses pour le CV
-                        st.subheader("Questions et Réponses pour le CV")
+                        st.subheader("Le CV")
                         for question, answer in cv_questions.items():
                             col1, col2 = st.columns([1, 2])
                             with col1:
@@ -37,7 +40,7 @@ def main():
                                 st.text("Réponse: " + answer)
                         
                         # Affichage des questions et réponses pour l'Offre d'Emploi
-                        st.subheader("Questions et Réponses pour l'Offre d'Emploi")
+                        st.subheader("L'Offre d'Emploi")
                         for question, answer in job_offer_questions.items():
                             col1, col2 = st.columns([1, 2])
                             with col1:
