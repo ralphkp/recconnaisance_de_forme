@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Quelles bases de données avez-vous utilisées dans votre expérience de développeur FullStack ?",
+        "answer": "MySQL, MongoDB et PostgreSQL"
+    },
+    {
+        "question": "Dans quelle université et dans quel pays avez-vous obtenu votre Master en Informatique ?",
+        "answer": "Université Nationale du Vietnam, Hanoi, Vietnam"
+    },
+    {
+        "question": "Quels langages de programmation avez-vous utilisés dans le cadre de votre expérience en développement backend ?",
+        "answer": "Python et Node.js"
+    },
+    {
+        "question": "Quelle a été votre spécialité dans votre Master en Informatique ?",
+        "answer": "Systèmes Intelligents et Multimédia"
+    },
+    {
+        "question": "Quelle est l'université qui vous a décerné votre Licence Professionnelle en Génie Informatique ?",
+        "answer": "Université privée Mahatma Gandhi, Guinée-Conakry"
+    },
+    {
+        "question": "Où avez-vous obtenu votre Master en Informatique ?",
+        "answer": "Université Nationale du Vietnam, Hanoi, Vietnam && Université de la Rochelle, France"
+    },
+    {
+        "question": "Quels langages de programmation avez-vous utilisés dans le cadre de votre développement front-end ?",
+        "answer": "HTML, XML, CSS, Bootstrap et JavaScript"
+    },
+    {
+        "question": "Quelle est l'université où vous avez obtenu votre Licence Professionnelle en Génie-Informatique ?",
+        "answer": "Université privée Mahatma Gandhi, Guinée-Conakry"
+    },
+    {
+        "question": "Dans quelles bases de données avez-vous de l'expérience ?",
+        "answer": "MySQL, MongoDB et PostgreSQL"
+    },
+    {
+        "question": "Quelles sont vos langues maternelles ?",
+        "answer": "Français et Vietnamien"
+    }
+]

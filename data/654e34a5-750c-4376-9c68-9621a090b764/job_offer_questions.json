@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Quelles sont les compétences requises pour le stage ?",
+        "answer": "Stage de Master 2 ou dernière année d'école d'ingénieur avec des connaissances et compétences en Intelligence Artificielle, Apprentissage Automatique ou Science des données pour l'industrie. Compétences requises : Python, traitement de données, algorithmes d'apprentissages (théorie et pratique), mesures et visualisation."
+    },
+    {
+        "question": "Quelle est la durée du stage ?",
+        "answer": "6 mois"
+    },
+    {
+        "question": "Quand est la date limite de candidature ?",
+        "answer": "26 janvier 2024"
+    },
+    {
+        "question": "Quand débutera le stage ?",
+        "answer": "Début d'année 2024"
+    },
+    {
+        "question": "Quel type de formation est requis pour le stage ?",
+        "answer": "Master 2 ou dernière année d'école d'ingénieur"
+    },
+    {
+        "question": "Dans quel domaine le stage se déroule-t-il ?",
+        "answer": "Intelligence Artificielle, Apprentissage Automatique ou Science des données pour l'industrie"
+    },
+    {
+        "question": "Quel est le niveau d'études requis pour postuler au stage ?",
+        "answer": "Master 2 ou dernière année d'école d'ingénieur"
+    },
+    {
+        "question": "Quelles sont les compétences requises pour le stage ?",
+        "answer": "Python, traitement de données, algorithmes d'apprentissages (théorie et pratique), mesures et visualisation"
+    },
+    {
+        "question": "Quel est l'objectif du stage ?",
+        "answer": "Modéliser et prédire les paramètres de fissure dans des assemblages collés"
+    },
+    {
+        "question": "Quelles sont les compétences logicielles requises pour le stage ?",
+        "answer": "Python, framework IA comme PyTorch, matplotlib, seaborn"
+    }
+]

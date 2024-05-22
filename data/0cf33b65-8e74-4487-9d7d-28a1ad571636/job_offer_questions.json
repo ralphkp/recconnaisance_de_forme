@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Quelles sont les compétences requises pour ce stage ?",
+        "answer": "Stage de Master 2 ou dernière année d'école d'ingénieur ayant des connaissances et compétences en Intelligence Artificielle, Apprentissage Automatique ou en Science des données pour l'industrie"
+    },
+    {
+        "question": "Quelle est la date limite de candidature pour ce stage ?",
+        "answer": "26 janvier 2024"
+    },
+    {
+        "question": "Quelle est la durée du stage ?",
+        "answer": "6 mois"
+    },
+    {
+        "question": "Quel est le profil recherché pour ce stage ?",
+        "answer": "Stage de Master 2 ou dernière année d'école d'ingénieur ayant des connaissances et compétences en Intelligence Artificielle, Apprentissage Automatique ou en Science des données pour l'industrie"
+    },
+    {
+        "question": "Quand débutera le stage ?",
+        "answer": "Début d'année 2024"
+    },
+    {
+        "question": "Quelles sont les compétences en apprentissage automatique requises pour ce stage ?",
+        "answer": "Algorithmes d'apprentissages (théorie : méthodes classiques, apprentissage profond, CNN ; pratique : framework IA comme PyTorch)"
+    },
+    {
+        "question": "Quelles sont les connaissances requises pour ce stage en science des données ?",
+        "answer": "Intelligence Artificielle, Apprentissage Automatique ou en Science des données pour l'industrie"
+    },
+    {
+        "question": "Quelles sont les compétences en traitement de données requises pour ce stage ?",
+        "answer": "Traitement de données, algorithmes d'apprentissages"
+    },
+    {
+        "question": "Quelles sont les compétences en apprentissage profond requises pour ce stage ?",
+        "answer": "Apprentissage profond"
+    },
+    {
+        "question": "Quel langage de programmation est requis pour ce stage ?",
+        "answer": "Python"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Quelles bases de données gérez-vous dans votre expérience professionnelle ?",
+        "answer": "MySql, MongoDB et PostgreSQL"
+    },
+    {
+        "question": "Quel diplôme avez-vous obtenu en décembre 2018 ?",
+        "answer": "Licence Professionnelle Génie-Informatique"
+    },
+    {
+        "question": "Quel est votre niveau d'études actuel ?",
+        "answer": "Master en Informatique, Spécialité Systèmes Intelligents et Multimédia"
+    },
+    {
+        "question": "Quel est l'organisme qui a développé la plateforme KSANTE ?",
+        "answer": "Agence Nationale de Sécurité Sanitaire && KOUMA ACADEMY SAS"
+    },
+    {
+        "question": "Où avez-vous obtenu votre Licence Professionnelle en Génie-Informatique ?",
+        "answer": "Université privée Mahatma Gandhi, Guinée-Conakry"
+    },
+    {
+        "question": "Dans quel pays avez-vous obtenu votre Master en Informatique ?",
+        "answer": "Vietnam"
+    },
+    {
+        "question": "Dans quelle université avez-vous obtenu votre Licence Professionnelle en Génie-Informatique ?",
+        "answer": "Université privée Mahatma Gandhi, Guinée-Conakry"
+    },
+    {
+        "question": "Quel est le nom de l'université vietnamienne où vous avez obtenu votre Master en Informatique ?",
+        "answer": "University National of Vietnam (VNU-IFI)"
+    },
+    {
+        "question": "Quel est le sujet de votre Master en Informatique ?",
+        "answer": "Systèmes Intelligents et Multimédia"
+    },
+    {
+        "question": "Quel est l'établissement où vous avez obtenu votre Licence Professionnelle en Génie-Informatique ?",
+        "answer": "Université privée Mahatma Gandhi, Guinée-Conakry"
+    }
+]

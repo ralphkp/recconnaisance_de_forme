@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Quelles sont les principales technologies de bases de données que vous maîtrisez ?",
+        "answer": "MySQL, MongoDB et PostgreSQL"
+    },
+    {
+        "question": "Dans quelle université avez-vous obtenu votre Master en Informatique ?",
+        "answer": "University National of Vietnam et Université de la Rochelle (France)"
+    },
+    {
+        "question": "Quel est le titre de votre projet académique sur la prédiction de la maladie à virus Ebola ?",
+        "answer": "Prédiction de la maladie à virus Ebola en Guinée à l'aide d'un modèle de Deep Learning basé sur les données épidémiologiques"
+    },
+    {
+        "question": "Quelle est votre langue maternelle ?",
+        "answer": "Français"
+    },
+    {
+        "question": "Parlez-vous vietnamien ?",
+        "answer": "Oui"
+    },
+    {
+        "question": "Quelle est la licence professionnelle que vous avez obtenue ?",
+        "answer": "Génie-Informatique"
+    },
+    {
+        "question": "Quel est le nom de l'université où vous avez obtenu votre licence professionnelle en Génie-Informatique ?",
+        "answer": "Université privée Mahatma Gandhi"
+    },
+    {
+        "question": "Quel est le nom de l'institut où vous avez suivi votre formation en informatique à Hanoi, Vietnam ?",
+        "answer": "Information Technology Institute (ITI)"
+    },
+    {
+        "question": "Dans quelle université avez-vous obtenu votre master en Informatique ?",
+        "answer": "University National of Vietnam et Université de la Rochelle (France)"
+    },
+    {
+        "question": "Quelles sont les technologies de bases de données que vous maîtrisez ?",
+        "answer": "MySQL, MongoDB et PostgreSQL"
+    }
+]
