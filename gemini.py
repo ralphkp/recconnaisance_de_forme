@@ -13,14 +13,14 @@ def configure_api():
 
 def load_json_data(session_id, data_type):
     file_path = os.path.join('data', session_id, f"{data_type}")
-    print(f"Tentative de chargement depuis : {file_path}")  # Log du chemin d'accès
+    print(f"Tentative de chargement depuis : {file_path}")
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
             data = json.load(file)
-            print(f"Données chargées pour {data_type} avec succès.")  # Confirmation de succès
+            print(f"Données chargées pour {data_type} avec succès.")
             return data
     except FileNotFoundError:
-        print(f"Erreur : Le fichier {file_path} n'a pas été trouvé.")  # Log des erreurs
+        print(f"Erreur : Le fichier {file_path} n'a pas été trouvé.")
         return None
     except json.JSONDecodeError:
         print(f"Erreur : Le contenu du fichier JSON {file_path} est corrompu ou mal formé.")
@@ -28,7 +28,6 @@ def load_json_data(session_id, data_type):
     except Exception as e:
         print(f"Erreur lors de la lecture du fichier JSON {file_path}: {e}")
         return None
-
 
 def setup_model():
     return genai.GenerativeModel(
@@ -40,31 +39,38 @@ def setup_model():
 def generate_questions(model, data, data_type):
     if not data:
         print(f"Aucune donnée disponible pour générer des questions pour {data_type}.")
-        return {}
-    questions_dict = {}
+        return []
+    questions_list = []
     convo = model.start_chat(history=[])
-    convo.send_message(json.dumps(data))
-    for i in range(1):
-        #prompt = f"Quelle est votre question d'entretien suivante basée sur les technologies présentées dans le {data_type}?"
-        prompt = f"Donne moi 10 questions serieuses et dignes d'un entretien de qualité plus les reponses correspondantes de manière structurer  dans ce {data_type}?"
+    
+    # Envoyer le JSON au modèle
+    convo.send_message(json.dumps(data, indent=4))
+    
+    for i in range(10):
+        # Prompt amélioré avec un exemple du JSON d'entrée
+        prompt = f"""
+        Utilise les informations du document {data_type} (format JSON) pour générer une paire question-réponse dans le format JSON suivant:
+        {{
+          "question": "Question ici?",
+          "answer": "Réponse ici."
+        }}
+
+        Exemple de données JSON: {json.dumps(data, indent=4)}
+
+        Génère la paire question-réponse sous forme de JSON valide. 
+        """
         convo.send_message(prompt)
         response = convo.last.text.strip()
-        # Nettoyage des réponses pour enlever les phrases introductives indésirables
-        phrases_to_remove = [
-            "Question d'entretien possible basée sur les technologies présentées dans l'offre d'emploi :",
-            "Voici quelques questions d'entretien possibles basée sur les technologies présentées dans le CV :",
-            "Question d'entretien suivante possible basée sur les technologies présentées dans le  CV :",
-            "Question d'entretien suivante possible basée sur les technologies présentées dans l'offre d'emploi :",
-            "Voici une autre question d'entretien possible basée sur les technologies présentées dans le CV",
-            "Questions d'entretien supplémentaires basées sur le CV"
-            
-        ]
-        for phrase in phrases_to_remove:
-            response = response.replace(phrase, "").strip()
-        # Enregistrer la réponse nettoyée
-        questions_dict[f"{data_type}_question_{i+1}"] = response
-    return questions_dict
 
+        try:
+            question_response = json.loads(response)
+            questions_list.append(question_response)
+        except json.JSONDecodeError:
+            # Amélioration de la gestion des erreurs
+            print(f"Erreur de décodage JSON pour la réponse {i+1}: {response}")
+            questions_list.append({"question": "Erreur de formatage", "answer": "Aucune réponse générée correctement"})
+
+    return questions_list
 
 def save_questions(questions, session_id, data_type):
     output_path = f'data/{session_id}/{data_type}_questions.json'
