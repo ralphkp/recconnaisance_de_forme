@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Expliquez comment vous utiliseriez l'analyse de données topologiques (ATD) dans le cadre de ce stage.",
+        "answer": "En appliquant l'ATD à des fonctions définies sur les profils de rugosité, j'estimerais les caractéristiques de ces fonctions, telles que le nombre et la pertinence des extrema locaux. L'homologie persistante de l'ATD nous permettrait ensuite de générer des diagrammes de persistance afin de mesurer les structures topologiques à différentes échelles, notamment les pics, vallées, pores et cavités."
+    },
+    {
+        "question": "Quelles architectures d'apprentissage automatique envisagez-vous d'utiliser dans le cadre de ce stage et pourquoi ?",
+        "answer": "Je prévois d'utiliser des architectures de transformateurs récentes conçues pour gérer les données d'apprentissage séquentielles. Ces architectures intègrent des mécanismes d'attention, des intégrations positionnelles, un traitement multi-échelle et une convolution. Elles sont particulièrement adaptées à la prédiction efficace des paramètres de sortie, tels que les valeurs de fissure ou les vecteurs temporels, et de leur cinétique."
+    },
+    {
+        "question": "Comment pensez-vous que les approches d'analyse de données topologiques (ATD) peuvent être bénéfiques dans le contexte de ce stage ?",
+        "answer": "L'ATD fournit un moyen efficace d'estimer la structure géométrique des profils de surface et de générer un ensemble complet de données de rugosité. En appliquant l'ATD à des fonctions définies sur les profils de rugosité, nous pouvons caractériser ces fonctions et mesurer les structures topologiques à différentes échelles, ce qui nous permettra de mieux comprendre l'impact de la rugosité de surface sur l'adhérence."
+    },
+    {
+        "question": "Quelles métriques utiliserez-vous pour évaluer l'efficacité des modèles d'apprentissage automatique que vous développerez dans le cadre de ce stage ?",
+        "answer": "Pour évaluer l'efficacité des modèles d'apprentissage automatique, j'utiliserai des métriques telles que le coefficient de détermination (R²), l'erreur quadratique moyenne (RMSE), l'erreur absolue moyenne (MAE) et la précision. Ces métriques me permettront de quantifier la précision des prédictions du modèle et de comparer les performances de différents modèles."
+    },
+    {
+        "question": "Selon vous, quelles sont les principales difficultés ou défis à relever dans le cadre de ce stage, et comment comptez-vous les surmonter ?",
+        "answer": "Les principales difficultés potentielles de ce stage sont la collecte et le traitement de grandes quantités de données, la conception de modèles d'apprentissage automatique efficaces et l'interprétation des résultats obtenus. Pour les surmonter, je prévois d'utiliser des techniques de traitement de données efficaces, d'appliquer des approches d'apprentissage automatique de pointe et de collaborer étroitement avec les superviseurs du projet pour garantir une interprétation précise des résultats."
+    },
+    {
+        "question": "Dans le cadre de ce stage, vous travaillerez sur la prédiction de l'évolution des fissures. Pouvez-vous expliquer brièvement votre compréhension de l'importance de cette tâche dans le domaine industriel ?",
+        "answer": "La prédiction de l'évolution des fissures est cruciale dans le domaine industriel car elle permet de garantir la sécurité et la fiabilité des structures et des composants. En prévoyant la croissance des fissures, les ingénieurs peuvent prendre des mesures préventives pour éviter des défaillances catastrophiques et assurer un fonctionnement optimal des systèmes."
+    },
+    {
+        "question": "Selon vous, quelles sont les implications éthiques potentielles de l'utilisation de l'intelligence artificielle dans le contexte de ce stage ?",
+        "answer": "L'utilisation de l'IA dans ce stage soulève des implications éthiques potentielles, telles que : \n\n* **Biais algorithmique** - Les modèles d'IA peuvent être biaisés si les données d'entraînement sont biaisées. Cela pourrait conduire à des prédictions injustes ou discriminatoires.\n* **Confidentialité des données** - Les données utilisées pour entraîner les modèles d'IA peuvent contenir des informations sensibles. Il est important de protéger la confidentialité de ces données.\n* **Interprétation** - Les modèles d'IA peuvent être complexes et difficiles à interpréter. Cela peut rendre difficile la compréhension des raisons pour lesquelles ils font certaines prédictions.\n* **Responsabilité** - En cas d'erreur d'un modèle d'IA, il est important de déterminer qui est responsable. Est-ce le développeur du modèle, l'utilisateur ou quelqu'un d'autre ?"
+    },
+    {
+        "question": "Dans le cadre de ce stage, vous travaillerez sur la prédiction de l'évolution des fissures. Pouvez-vous nous expliquer comment les modèles d'apprentissage automatique peuvent être utilisés pour cette tâche ?",
+        "answer": "Les modèles d'apprentissage automatique peuvent être utilisés pour prédire l'évolution des fissures en apprenant des modèles à partir des données existantes. Ces modèles peuvent être entraînés à identifier les caractéristiques des fissures, telles que leur longueur, leur profondeur et leur orientation, et à prédire comment elles vont évoluer dans le temps. En utilisant ces modèles, les ingénieurs peuvent identifier les fissures à risque et prendre des mesures pour les réparer ou les surveiller avant qu'elles ne causent des problèmes."
+    },
+    {
+        "question": "Comment envisagez-vous de gérer les données manquantes ou aberrantes dans le cadre de ce stage ?",
+        "answer": "Pour gérer les données manquantes ou aberrantes, j'utiliserai une combinaison de techniques telles que l'imputation multiple, la détection d'anomalies et la suppression des données. L'imputation multiple consiste à imputer les valeurs manquantes par des valeurs plausibles basées sur les données observées. La détection d'anomalies permet d'identifier les données aberrantes qui peuvent fausser les modèles. Enfin, la suppression des données consiste à supprimer les données manquantes ou aberrantes qui ne peuvent pas être raisonnablement imputées ou détectées."
+    },
+    {
+        "question": "Selon vous, quelles sont les applications potentielles de l'analyse de données topologiques (ATD) dans l'industrie ?",
+        "answer": "L'ATD a de nombreuses applications potentielles dans l'industrie, notamment :\n\n* **Contrôle de qualité** : L'ATD peut être utilisée pour détecter les défauts de surface et autres irrégularités dans les produits manufacturés.\n* **Conception de produits** : L'ATD peut être utilisée pour optimiser la conception des produits en identifiant les points faibles et en suggérant des améliorations.\n* **Maintenance prédictive** : L'ATD peut être utilisée pour surveiller l'état des équipements et prédire les défaillances potentielles.\n* **Recherche et développement** : L'ATD peut être utilisée pour générer de nouvelles connaissances sur la structure et les propriétés des matériaux."
+    }
+]

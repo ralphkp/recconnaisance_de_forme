@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Comment comptez-vous exploiter l'Analyse de Données Topologiques (ATD) pour estimer la structure géométrique des profils de surface et générer des données de rugosité ?",
+        "answer": "L'ATD sera appliquée à des fonctions définies sur le profil de rugosité pour estimer les caractéristiques de ces fonctions, telles que le nombre et la pertinence des extrema locaux. L'homologie persistante de l'ATD sera utilisée pour générer des diagrammes de persistance permettant de mesurer les structures topologiques à différentes échelles d'importance."
+    },
+    {
+        "question": "Quelles sont les architectures récentes d'IA qui vous intéressent particulièrement dans le cadre de ce stage ?",
+        "answer": "Les architectures récentes de transformateurs, conçues pour ingérer des données d'apprentissage séquentielles. Ces architectures intègrent des mécanismes d'attention, des intégrations positionnelles, un traitement multi-échelle et des techniques de convolution."
+    },
+    {
+        "question": "Quelles mesures de visualisation et d'intuition utiliserez-vous pour présenter les résultats de votre analyse et de votre modélisation ?",
+        "answer": "J'utiliserai des diagrammes de persistance pour visualiser les structures topologiques des surfaces. Ces diagrammes permettent de mesurer les caractéristiques des structures topologiques, telles que les pics, les vallées, les pores et les cavités, à différentes échelles d'importance."
+    },
+    {
+        "question": "Quels autres types d'algorithmes d'apprentissage automatique, outre les CNN (Convolutional Neural Networks), envisagez-vous d'utiliser dans le cadre de ce projet ?",
+        "answer": "J'envisage d'utiliser des architectures récentes de transformateurs, conçues pour ingérer des données d'apprentissage séquentielles, ainsi que des méthodes d'apprentissage profond telles que des réseaux récurrents (RNN) et des réseaux de neurones attentionnels."
+    },
+    {
+        "question": "Quelles métriques ou critères utiliserez-vous pour évaluer la précision et l'efficacité de votre modèle d'apprentissage automatique ?",
+        "answer": "J'utiliserai des métriques telles que la corrélation de Pearson, le MAE (Mean Absolute Error) et le MSE (Mean Squared Error) pour évaluer la précision de mes prédictions. J'évaluerai également l'efficacité du modèle en termes de temps de calcul et de ressources consommées."
+    },
+    {
+        "question": "Dans le cadre de ce stage, prévoyez-vous d'utiliser des techniques de prétraitement ou de post-traitement des données pour améliorer les performances de votre modèle ?",
+        "answer": "Oui, je prévois d'utiliser des techniques de prétraitement des données telles que la normalisation, la mise à l'échelle et l'encodage catégoriel pour améliorer la qualité des données et préparer le modèle à l'apprentissage. Je peux également utiliser des techniques de post-traitement comme le lissage ou l'échantillonnage pour améliorer les prédictions et les rendre plus fiables."
+    },
+    {
+        "question": "Comment comptez-vous traiter les données d'apprentissage non structurées dans le cadre de ce projet ?",
+        "answer": "Je peux utiliser des techniques de traitement du langage naturel (TALN) telles que l'intégration de mots et la modélisation de sujets pour extraire des caractéristiques significatives à partir de données d'apprentissage non structurées. Ces caractéristiques peuvent ensuite être utilisées pour entraîner un modèle d'apprentissage automatique supervisé ou non supervisé."
+    },
+    {
+        "question": "Dans le cadre de ce projet, comment envisagez-vous de gérer les déséquilibres de données, s'il y en a ?",
+        "answer": "Je peux utiliser des techniques de suréchantillonnage ou de sous-échantillonnage pour équilibrer les données. Dans le suréchantillonnage, les échantillons de la classe minoritaire sont dupliqués pour augmenter leur nombre. Dans le sous-échantillonnage, les échantillons de la classe majoritaire sont supprimés de manière aléatoire pour réduire leur nombre."
+    },
+    {
+        "question": "Quelles mesures prendrez-vous pour assurer la fiabilité et la reproductibilité des résultats de votre modèle ?",
+        "answer": "Je documenterai soigneusement toutes les étapes de la méthodologie, y compris les paramètres du modèle, les techniques d'évaluation et les jeux de données utilisés. Je m'assurerai également que le code et les notebooks sont bien commentés et accessibles aux autres chercheurs. De plus, je procéderai à des tests approfondis et à des validations croisées pour évaluer les performances du modèle et garantir sa fiabilité."
+    },
+    {
+        "question": "Quelles mesures prendrez-vous pour évaluer l'impact environnemental de votre solution ?",
+        "answer": "Je prendrai en compte l'empreinte carbone des modèles d'apprentissage automatique, des ressources de calcul et des données utilisées. J'explorerai des techniques d'apprentissage automatique écologiques, telles que l'échantillonnage efficace, la quantification de l'incertitude et les modèles compressés, pour minimiser l'impact environnemental."
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Vous avez développé des interfaces administrateur. Pouvez-vous nous expliquer votre approche pour concevoir des interfaces utilisateur conviviales et efficaces ?",
+        "answer": "Dans la conception des interfaces administrateur, je me concentre sur la clarté, la convivialité et l'efficacité. Je m'assure que les informations sont organisées de manière logique, que la navigation est intuitive et que les actions courantes sont facilement accessibles. J'utilise également des techniques de conception visuelle pour améliorer la lisibilité et l'esthétique globale."
+    },
+    {
+        "question": "Avez-vous de l'expérience dans le développement d'interfaces utilisateur pour des plateformes mobiles ?",
+        "answer": "Oui, j'ai développé plusieurs interfaces utilisateur pour des plateformes mobiles dans le cadre de projets universitaires et personnels. J'ai utilisé des langages et des frameworks tels que Java (Android), Swift (iOS) et React Native pour créer des interfaces utilisateur réactives et conviviales."
+    },
+    {
+        "question": "Quelles sont vos expériences dans le développement et l'implémentation de solutions de surveillance de la santé ?",
+        "answer": "Dans le cadre de mon rôle chez KOUMA ACADEMY SAS, j'ai été responsable technique du projet KSANTE, une plateforme nationale de surveillance du Covid-19 développée pour l'Agence Nationale de Sécurité Sanitaire. J'ai participé à la conception et au développement de la plateforme, qui fournit des fonctionnalités de géolocalisation, de suivi à distance et de gestion des cas contacts."
+    },
+    {
+        "question": "Quelles sont vos expériences dans le développement et la mise en œuvre de solutions de fouille de données ?",
+        "answer": "Dans le cadre de mes projets académiques, j'ai mené plusieurs études de fouille de données, notamment : \n- Prédiction de la maladie à virus Ebola en Guinée à l'aide d'un modèle de Deep Learning basé sur les données épidémiologiques \n- Analyse de l'impact des variables socio-éducatives sur les performances académiques des étudiants \n- Développement d'un système de simulation d'entretiens générant des questionnaires en fonction du CV et de l'offre d'emploi."
+    },
+    {
+        "question": "Quelles sont vos compétences en développement d'applications mobiles ?",
+        "answer": "J'ai développé plusieurs applications mobiles dans le cadre de projets personnels et académiques. J'ai utilisé des langages et des frameworks tels que Java (Android), Swift (iOS) et React Native. J'ai également travaillé sur l'intégration d'API, la gestion de bases de données et l'optimisation des performances."
+    },
+    {
+        "question": "Quelles sont vos connaissances et votre expérience dans le domaine du développement de bases de données ?",
+        "answer": "J'ai une solide expérience dans le développement et la gestion de bases de données relationnelles et non relationnelles. J'ai travaillé avec des systèmes tels que MySQL, MongoDB et PostgreSQL. J'ai également de l'expérience dans la conception de schémas, l'optimisation des requêtes et la mise en œuvre de stratégies de sauvegarde et de reprise après sinistre."
+    },
+    {
+        "question": "Quelles sont vos expériences dans le développement et la mise en œuvre de solutions Big Data ?",
+        "answer": "Dans le cadre de mes projets académiques, j'ai travaillé sur des projets Big Data impliquant l'analyse de grands ensembles de données. J'ai utilisé des technologies telles que Hadoop, Spark et Hive pour traiter et analyser des données provenant de diverses sources. J'ai également de l'expérience dans la visualisation et l'interprétation des résultats d'analyse."
+    },
+    {
+        "question": "Quelles sont vos expériences dans le développement et la mise en œuvre de solutions d'apprentissage automatique ?",
+        "answer": "Dans le cadre de mes projets universitaires, j'ai développé et déployé plusieurs modèles d'apprentissage automatique pour diverses applications, notamment la prédiction de la maladie à virus Ebola, l'analyse de l'impact des variables socio-éducatives sur les performances académiques des étudiants et la génération de questionnaires d'entretien personnalisés. J'ai utilisé des techniques telles que l'apprentissage profond, l'apprentissage automatique classique et le traitement du langage naturel pour développer ces modèles."
+    },
+    {
+        "question": "Quelles sont vos connaissances et votre expérience dans le développement d'applications mobiles natives ?",
+        "answer": "J'ai développé plusieurs applications mobiles natives pour les plateformes iOS et Android. J'ai utilisé des langages et des frameworks tels que Swift, Kotlin, React Native et Flutter. J'ai également travaillé sur l'intégration d'API, le développement de fonctionnalités hors ligne et l'optimisation des performances."
+    },
+    {
+        "question": "Quelles sont vos compétences dans le développement de solutions de cybersécurité ?",
+        "answer": "J'ai acquis des compétences en cybersécurité grâce à des cours universitaires et à des projets personnels. J'ai travaillé sur des concepts tels que la cryptographie, la sécurité des réseaux, la détection d'intrusion et la réponse aux incidents. J'ai également de l'expérience dans l'utilisation d'outils et de technologies de cybersécurité pour protéger les systèmes contre les cybermenaces."
+    }
+]

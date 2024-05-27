@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Quel aspect de votre expérience en tant que développeur FullStack vous a le plus marqué et pourquoi ?",
+        "answer": "Travailler sur le projet KSANTE, la plateforme de surveillance du Covid-19, a été une expérience particulièrement marquante pour moi. J'ai pu y mettre en pratique mes compétences techniques et contribuer à un projet ayant un impact significatif sur la santé publique."
+    },
+    {
+        "question": "Comment votre parcours académique a-t-il influencé votre approche du développement logiciel ?",
+        "answer": "Mon double diplôme en informatique m'a permis d'acquérir une solide base théorique et pratique. J'ai notamment approfondi mes connaissances en matière d'intelligence artificielle et de Big Data, ce qui m'a permis de développer des solutions innovantes et efficaces dans mon travail en tant que développeur FullStack."
+    },
+    {
+        "question": "Quels sont les aspects du développement FullStack qui vous passionnent le plus ?",
+        "answer": "Je suis particulièrement passionné par les aspects innovants du développement FullStack, tels que l'utilisation de l'intelligence artificielle et du Big Data. J'apprécie également la possibilité de travailler sur l'ensemble du cycle de développement, de la conception à la mise en œuvre, ce qui me permet d'avoir une vue d'ensemble des projets et de contribuer à leur réussite globale."
+    },
+    {
+        "question": "Comment intégrez-vous l'innovation dans votre approche du développement logiciel ?",
+        "answer": "Je m'efforce constamment de rester à la pointe des dernières technologies et tendances en participant à des formations, en lisant des articles spécialisés et en contribuant à des projets open source. J'intègre l'innovation dans mon travail en explorant de nouveaux outils et frameworks, en recherchant des solutions créatives aux problèmes et en proposant des idées novatrices pour améliorer les projets."
+    },
+    {
+        "question": "Comment votre expérience de développement FullStack a-t-elle contribué à votre capacité à résoudre des problèmes complexes ?",
+        "answer": "Mon expérience de développement FullStack m'a permis d'acquérir une compréhension approfondie de l'ensemble du cycle de développement logiciel. Cela me donne une perspective globale sur les projets, me permettant d'identifier les interdépendances entre les différents composants et de résoudre efficacement les problèmes qui peuvent survenir. De plus, la variété des technologies et des langages que j'ai maîtrisés m'a donné les outils nécessaires pour explorer différentes approches et trouver les solutions les plus adaptées aux besoins spécifiques de chaque projet."
+    },
+    {
+        "question": "Pouvez-vous me parler d'un projet qui illustre votre capacité à travailler efficacement en équipe ?",
+        "answer": "En tant que responsable technique du projet KSANTE, j'ai collaboré étroitement avec une équipe de développeurs, de concepteurs et de professionnels de la santé pour développer une plateforme nationale de surveillance du Covid-19. J'ai assuré la coordination des tâches, la communication entre les membres de l'équipe et la résolution des problèmes techniques. Grâce à ce travail d'équipe efficace, nous avons pu livrer le projet dans les délais et avec succès, contribuant ainsi à la lutte contre la pandémie en Guinée."
+    },
+    {
+        "question": "Quelles sont vos principales motivations pour postuler à ce poste ?",
+        "answer": "Je suis particulièrement attiré par la réputation de votre entreprise pour son engagement envers l'innovation et son esprit d'équipe. J'ai été impressionné par les projets sur lesquels vous travaillez et je pense que mes compétences techniques et mon expérience seraient un atout précieux pour votre équipe. De plus, la possibilité de contribuer à des projets impactants et de travailler dans un environnement stimulant est une motivation majeure pour moi."
+    },
+    {
+        "question": "Quelles sont vos compétences techniques les plus remarquables ?",
+        "answer": "Mes compétences techniques les plus remarquables incluent une solide maîtrise des langages de développement FullStack tels que Python, Node.js, HTML, CSS et JavaScript. Je suis également compétent dans l'utilisation de bases de données (MySQL, MongoDB, PostgreSQL), ainsi que dans les technologies Big Data (Google Cloud Platform, Elasticsearch). De plus, j'ai de l'expérience dans le développement d'applications mobiles (Android, Scala) et dans l'utilisation de frameworks de développement agile (Flask, Django)."
+    },
+    {
+        "question": "Quels sont vos objectifs de carrière ?",
+        "answer": "Mon objectif de carrière est de devenir un ingénieur logiciel accompli et innovant. Je suis passionné par la résolution de problèmes complexes et la création de solutions technologiques qui ont un impact positif sur le monde. J'aspire à travailler dans un environnement stimulant où je peux apprendre, grandir et contribuer à des projets significatifs."
+    },
+    {
+        "question": "Pouvez-vous me parler d'un projet qui illustre vos compétences en résolution de problèmes ?",
+        "answer": "En tant que développeur FullStack pour KOUMA ACADEMY SAS, j'ai été confronté à un problème de performances sur une application mobile. J'ai utilisé mes compétences en analyse de code et en profilage pour identifier un goulot d'étranglement dans le traitement des données. J'ai ensuite optimisé l'algorithme et implémenté une solution de mise en cache, ce qui a considérablement amélioré les temps de réponse de l'application."
+    }
+]

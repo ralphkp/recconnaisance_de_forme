@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Pouvez-vous nous fournir des détails sur vos expériences antérieures dans l'application de l'analyse de données topologiques (ATD) pour prédire les fissures dans les assemblages collés ?",
+        "answer": "Bien que l'offre d'emploi indique la pertinence de l'ATD pour ce poste, mon expérience antérieure n'inclut pas spécifiquement l'application de l'ATD à la prédiction des fissures dans les assemblages collés. Cependant, je possède une solide compréhension de l'ATD et je suis enthousiaste à l'idée d'appliquer mes connaissances à ce domaine."
+    },
+    {
+        "question": "Avez-vous une expérience pratique dans le développement et le déploiement de modèles d'apprentissage automatique pour la prédiction de fissures dans les assemblages collés ?",
+        "answer": "Bien que l'offre d'emploi mentionne l'utilisation de réseaux de neurones pour prédire l'évolution des fissures, elle ne précise pas spécifiquement le développement et le déploiement de modèles d'apprentissage automatique. Je n'ai pas d'expérience directe dans cette tâche spécifique."
+    },
+    {
+        "question": "Quelles sont vos connaissances et votre expérience dans l'utilisation de l'apprentissage automatique pour analyser les structures topologiques des surfaces ?",
+        "answer": "Bien que l'offre d'emploi mentionne l'utilisation de l'apprentissage automatique pour prédire l'évolution des fissures, elle ne précise pas explicitement l'analyse des structures topologiques des surfaces. Je n'ai donc pas d'expérience directe dans l'application de l'apprentissage automatique à cette tâche spécifique."
+    },
+    {
+        "question": "Pouvez-vous nous en dire plus sur votre expérience dans l'utilisation des transformateurs pour traiter des données d'apprentissage séquentielles ?",
+        "answer": "Bien que l'offre d'emploi mentionne l'utilisation de transformateurs, elle ne précise pas explicitement le traitement de données d'apprentissage séquentielles. Je n'ai donc pas d'expérience directe dans l'utilisation de transformateurs à cette fin."
+    },
+    {
+        "question": "Quelles sont vos connaissances et votre expérience dans le traitement d'images pour extraire des caractéristiques topologiques de surface ?",
+        "answer": "L'offre d'emploi mentionne l'extraction de caractéristiques topologiques de surface par traitement d'images, mais ne précise pas l'utilisation de transformateurs à cette fin. Je n'ai donc pas d'expérience directe dans l'utilisation de transformateurs pour cette tâche."
+    },
+    {
+        "question": "Avez-vous une expérience pratique dans l'utilisation de l'analyse de données topologiques pour caractériser les surfaces ?",
+        "answer": "Bien que l'offre d'emploi mentionne l'utilisation de l'analyse de données topologiques, elle ne précise pas explicitement la caractérisation des surfaces. Je n'ai donc pas d'expérience directe dans l'application de l'analyse de données topologiques à cette tâche."
+    },
+    {
+        "question": "Quelles sont vos connaissances et votre expérience dans l'utilisation de l'apprentissage profond pour les problèmes d'adhérence ?",
+        "answer": "Bien que l'offre d'emploi mentionne l'utilisation de l'apprentissage profond, elle ne précise pas explicitement son application aux problèmes d'adhérence. Je n'ai donc pas d'expérience directe dans l'application de l'apprentissage profond à ces problèmes."
+    },
+    {
+        "question": "Avez-vous de l'expérience dans l'utilisation de techniques de traitement d'images pour extraire des caractéristiques topologiques de surface ?",
+        "answer": "Bien que l'offre d'emploi mentionne l'extraction de caractéristiques topologiques de surface, elle ne précise pas explicitement l'utilisation de techniques de traitement d'images. Je n'ai donc pas d'expérience directe dans l'extraction de ces caractéristiques à l'aide de techniques de traitement d'images."
+    },
+    {
+        "question": "Quelles sont vos connaissances et votre expérience dans l'utilisation de l'analyse de données topologiques pour caractériser les surfaces ?",
+        "answer": "Bien que l'offre d'emploi mentionne l'utilisation de l'analyse de données topologiques, elle ne précise pas explicitement la caractérisation des surfaces. Je n'ai donc pas d'expérience directe dans l'application de l'analyse de données topologiques à cette tâche."
+    },
+    {
+        "question": "Avez-vous de l'expérience dans le traitement de données d'apprentissage séquentielles ?",
+        "answer": "Bien que l'offre d'emploi mentionne l'utilisation de transformateurs, elle ne précise pas explicitement le traitement de données d'apprentissage séquentielles. Je n'ai donc pas d'expérience directe dans l'utilisation de transformateurs à cette fin."
+    }
+]

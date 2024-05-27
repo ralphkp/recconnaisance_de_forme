@@ -55,7 +55,7 @@ def show_user_interface():
         st.warning("Veuillez télécharger un CV et une description de poste pour générer des questions.")
 
 def display_dataframe_with_style(df):
-    st.write(df.to_html(escape=False), unsafe_allow_html=True)  # Modification ici pour utiliser correctement le HTML
+    st.write(df.to_html(escape=False), unsafe_allow_html=True)
 
 def simulate_interview(cv, job_desc):
     url = 'http://127.0.0.1:5000/upload'
@@ -74,6 +74,25 @@ def simulate_interview(cv, job_desc):
 def show_admin_interface():
     st.title("Interface Administrateur")
     st.write("Bienvenue dans l'interface administrateur.")
+    if st.button("Afficher les Statistiques"):
+        display_statistics()
+    
+    if st.button("Gérer les Sessions"):
+        manage_sessions()
+
+def display_statistics():
+    # Cette fonction devrait récupérer les statistiques que vous voulez afficher
+    stats = {"Nombre de sessions": 100, "Interviews simulées": 95}
+    st.json(stats)
+
+def manage_sessions():
+    st.write("Gestion des Sessions:")
+    # Cette liste devrait venir de votre base de données ou fichier système
+    sessions = ["Session 1", "Session 2", "Session 3"]
+    selected_session = st.selectbox("Choisir une session", sessions)
+    if st.button("Supprimer la Session"):
+        # La logique pour supprimer la session devrait être implémentée ici
+        st.success(f"Session {selected_session} supprimée avec succès.")
 
 if __name__ == "__main__":
     main()

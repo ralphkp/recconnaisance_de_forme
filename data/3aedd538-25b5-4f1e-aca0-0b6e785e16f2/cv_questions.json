@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Parlez-nous d'un projet professionnel sur lequel vous avez travaillé qui a eu un impact mesurable.",
+        "answer": "En tant que responsable technique du projet KSANTE, j'ai contribué de manière significative à la plateforme nationale de surveillance du Covid-19 déployée en Guinée. La plateforme a permis de géolocaliser, de suivre à distance et de gérer les cas contacts du Covid-19, aidant le pays à contenir la pandémie."
+    },
+    {
+        "question": "Comment utilisez-vous vos compétences en résolution de problèmes dans votre travail quotidien ?",
+        "answer": "Dans mon rôle de développeur FullStack, je dois régulièrement résoudre des problèmes complexes liés à la conception, au développement et au débogage de logiciels. Mon approche consiste à analyser le problème de manière approfondie, à explorer différentes solutions possibles et à choisir l'option la plus efficace en termes d'impact commercial et de contraintes techniques."
+    },
+    {
+        "question": "Pouvez-vous nous parler d'une situation où vous avez dû faire preuve d'innovation pour résoudre un problème technique ?",
+        "answer": "Lors du développement de la plateforme KSANTE, nous avons rencontré un défi pour stocker et traiter efficacement les données géospatiales. J'ai fait des recherches sur des solutions innovantes et j'ai proposé l'utilisation d'une base de données NoSQL orientée graphe (MongoDB), qui nous a permis de stocker et d'interroger les données géospatiales de manière flexible et efficace, améliorant ainsi les performances globales de la plateforme."
+    },
+    {
+        "question": "Pouvez-vous nous donner un exemple de projet où vous avez collaboré efficacement au sein d'une équipe ?",
+        "answer": "En tant que membre de l'équipe de développement de la plateforme KSANTE, j'ai travaillé en étroite collaboration avec des développeurs, des analystes de données et des responsables de santé publique pour créer une solution complète de surveillance du Covid-19. La communication claire, la répartition des tâches et l'utilisation d'outils de collaboration ont permis à notre équipe de livrer un produit de haute qualité dans un délai serré."
+    },
+    {
+        "question": "Quels sont vos points forts en tant que développeur FullStack ?",
+        "answer": "En tant que développeur FullStack, je possède une solide maîtrise des langages frontaux (HTML, CSS, JavaScript) et des technologies back-end (Python, NodeJs) ainsi que des bases de données (MySql, MongoDB, PostgreSQL). Je suis également à l'aise avec les outils de développement agiles et les méthodologies DevOps, ce qui me permet de livrer des solutions logicielles complètes et de haute qualité."
+    },
+    {
+        "question": "Avez-vous de l'expérience dans le développement de systèmes de base de données ?",
+        "answer": "Oui, j'ai une expérience pratique dans le développement de systèmes de base de données. J'ai utilisé MySQL, MongoDB et PostgreSQL pour concevoir, implémenter et gérer des bases de données pour divers projets, notamment la plateforme KSANTE, qui nécessitait le stockage et la gestion efficaces de grandes quantités de données géospatiales et épidémiologiques."
+    },
+    {
+        "question": "Quelles sont vos principales forces en tant que développeur back-end ?",
+        "answer": "En tant que développeur back-end, je maîtrise les langages Python et NodeJs, ainsi que les frameworks associés tels que Django et Flask. Je suis également à l'aise avec les bases de données NoSQL et SQL, ce qui me permet de concevoir et de développer des solutions back-end efficaces et évolutives pour diverses applications."
+    },
+    {
+        "question": "Avez-vous de l'expérience dans le développement de projets à grande échelle ?",
+        "answer": "Oui, j'ai participé au développement de la plateforme KSANTE, un projet d'envergure nationale visant à surveiller le Covid-19 en Guinée. J'ai contribué à concevoir et à implémenter des fonctionnalités clés de la plateforme, notamment la géolocalisation, le suivi à distance et la gestion des cas contacts, ce qui m'a permis de travailler sur un projet à fort impact dans un contexte réel."
+    },
+    {
+        "question": "Quelles sont vos principales compétences en matière de développement front-end ?",
+        "answer": "En tant que développeur front-end, je maîtrise les langages HTML, CSS et JavaScript, ainsi que les frameworks tels que Bootstrap. Je suis également à l'aise avec les techniques de conception adaptative et réactive, ce qui me permet de créer des interfaces utilisateur conviviales et fonctionnelles pour diverses plateformes et appareils."
+    },
+    {
+        "question": "Avez-vous de l'expérience dans le travail avec des bases de données NoSQL ?",
+        "answer": "Oui, j'ai travaillé avec des bases de données NoSQL, notamment MongoDB, lors du développement de la plateforme KSANTE. MongoDB m'a permis de stocker et d'interroger efficacement de grandes quantités de données géospatiales et épidémiologiques, ce qui était essentiel pour les fonctionnalités de géolocalisation et de suivi à distance de la plateforme."
+    }
+]

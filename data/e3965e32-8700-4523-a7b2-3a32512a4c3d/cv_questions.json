@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Pouvez-vous nous en dire plus sur votre expérience avec le développement d'applications Android ?",
+        "answer": "Je n'ai pas d'expérience directe dans le développement d'applications Android, mais je possède de solides connaissances en développement mobile et j'ai travaillé sur des projets impliquant d'autres plateformes mobiles telles que iOS."
+    },
+    {
+        "question": "Comment avez-vous acquis vos compétences en développement FullStack ?",
+        "answer": "J'ai acquis mes compétences en développement FullStack grâce à une combinaison d'expériences professionnelles, de formations et de projets personnels. J'ai travaillé en tant que développeur FullStack pendant plusieurs années, ce qui m'a permis de mettre en pratique mes connaissances et d'acquérir une expertise dans le développement d'applications Web et mobiles complètes."
+    },
+    {
+        "question": "Quelles sont vos expériences avec les bases de données relationnelles ?",
+        "answer": "J'ai une expérience pratique avec les bases de données relationnelles, principalement MySQL, MongoDB et PostgreSQL. Dans mon rôle précédent, j'étais responsable de la conception, de la création et de la maintenance de plusieurs bases de données relationnelles pour des applications Web et mobiles. Je suis compétent dans la rédaction de requêtes SQL complexes, l'optimisation des performances des bases de données et la mise en œuvre de stratégies de sauvegarde et de reprise après sinistre."
+    },
+    {
+        "question": "Pouvez-vous m'en dire plus sur votre expérience avec le développement de projets académiques utilisant le machine learning ?",
+        "answer": "Au cours de mon parcours universitaire, j'ai réalisé plusieurs projets académiques impliquant des techniques de machine learning. J'ai notamment développé un modèle de Deep Learning pour prédire la propagation de la maladie à virus Ebola en Guinée, en utilisant des données épidémiologiques. J'ai également travaillé sur un projet visant à analyser l'impact des variables socio-éducatives sur les performances académiques des étudiants, en utilisant des algorithmes de classification et de régression."
+    },
+    {
+        "question": "Quelles sont vos compétences en matière de gestion de bases de données ?",
+        "answer": "Je possède de solides compétences en gestion de bases de données, acquises grâce à mon expérience professionnelle et à mes projets personnels. J'ai travaillé avec diverses bases de données relationnelles, notamment MySQL, MongoDB et PostgreSQL, et je suis compétent dans la conception, la création et la maintenance de bases de données efficaces. Je suis également familiarisé avec les techniques d'optimisation des performances, les stratégies de sauvegarde et de reprise après sinistre, ainsi que les concepts de modélisation de données."
+    },
+    {
+        "question": "Pouvez-vous me parler de votre expérience avec le développement de solutions informatiques pour le secteur de la santé ?",
+        "answer": "Au cours de mon expérience professionnelle, j'ai eu l'opportunité de développer des solutions informatiques pour le secteur de la santé. Notamment, en tant que responsable technique du projet KSANTE, j'ai travaillé sur une plateforme nationale de surveillance du Covid-19 développée pour l'Agence Nationale de Sécurité Sanitaire en Guinée. Cette plateforme permettait la géolocalisation, le suivi à distance et la gestion des cas contacts de la maladie."
+    },
+    {
+        "question": "Comment avez-vous acquis vos compétences en développement back-end ?",
+        "answer": "J'ai acquis mes compétences en développement back-end principalement grâce à mon expérience professionnelle en tant que développeur full-stack. J'ai travaillé sur plusieurs projets nécessitant la création et la maintenance d'applications web et mobiles côté serveur. J'ai utilisé des langages de programmation tels que Python et Node.js, et des frameworks comme Django et Flask, pour développer des API et des services back-end robustes."
+    },
+    {
+        "question": "Quelles sont vos principales forces en tant que développeur full-stack ?",
+        "answer": "En tant que développeur full-stack, mes principales forces incluent : une solide compréhension des technologies front-end et back-end, une capacité à concevoir et développer des applications web et mobiles complètes, des compétences en résolution de problèmes et en débogage, une bonne communication et des compétences de travail en équipe, une volonté d'apprendre et de rester au courant des dernières technologies."
+    },
+    {
+        "question": "Quelles sont vos compétences en matière de développement front-end ?",
+        "answer": "En tant que développeur full-stack, je maîtrise diverses technologies front-end, notamment HTML, CSS, JavaScript, Bootstrap et XML. J'ai une bonne compréhension des principes de conception UX/UI et je suis capable de créer des interfaces utilisateur réactives et conviviales pour les applications web et mobiles."
+    },
+    {
+        "question": "Comment avez-vous acquis vos compétences en développement back-end ?",
+        "answer": "J'ai développé mes compétences en développement back-end principalement grâce à mon expérience professionnelle en tant que développeur full-stack. J'ai travaillé sur plusieurs projets nécessitant la création et la maintenance d'applications web et mobiles côté serveur. J'ai utilisé des langages de programmation tels que Python et Node.js, et des frameworks comme Django et Flask, pour développer des API et des services back-end robustes."
+    }
+]

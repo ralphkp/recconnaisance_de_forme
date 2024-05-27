@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Parlez-nous d'un projet technique significatif sur lequel vous avez travaillé et qui démontre vos compétences en matière de développement FullStack.",
+        "answer": "En tant que développeur FullStack chez Kouma Academy SAS, j'ai joué un rôle clé dans le développement de KSANTE, une plateforme de géolocalisation et de suivi des contacts COVID-19. J'ai travaillé sur les aspects front-end et back-end du projet, en utilisant HTML, CSS, JavaScript, Python et NodeJs."
+    },
+    {
+        "question": "Vous avez mentionné être compétent en développement mobile. Pouvez-vous nous parler d'une application mobile sur laquelle vous avez travaillé et des technologies que vous avez utilisées ?",
+        "answer": "Bien que je n'aie pas d'expérience directe dans le développement d'applications mobiles, je suis familier avec les technologies de développement mobile telles que Android et Java. J'ai travaillé sur des projets académiques impliquant la conception et le développement d'interfaces utilisateur mobiles, et je suis impatient d'appliquer mes connaissances à de futurs projets de développement mobile."
+    },
+    {
+        "question": "Comment gérez-vous les situations où vous devez travailler sur plusieurs projets simultanément ?",
+        "answer": "Dans les situations où je dois travailler sur plusieurs projets simultanément, je priorise les tâches en fonction de leur importance et de leur échéance. J'utilise des outils de gestion de projet pour suivre mes progrès, déléguer des tâches lorsque cela est possible et communiquer régulièrement avec les parties prenantes pour les tenir informées de l'état d'avancement. J'ai constaté que cette approche me permet de rester organisé, de respecter les délais et de fournir des résultats de haute qualité."
+    },
+    {
+        "question": "Quelles sont vos ambitions professionnelles à long terme et comment votre expérience chez Kouma Academy SAS les a-t-elle soutenues ?",
+        "answer": "Mon ambition professionnelle à long terme est de devenir un leader technologique innovant. Chez Kouma Academy SAS, j'ai eu l'opportunité de travailler sur des projets stimulants qui m'ont permis de développer mes compétences techniques et mon sens des affaires. J'ai appris à travailler efficacement dans des équipes multidisciplinaires et à gérer des projets complexes. Cette expérience m'a donné confiance en mes capacités et m'a inspiré à poursuivre mes objectifs de leadership dans le secteur technologique."
+    },
+    {
+        "question": "Je vois que vous avez une solide expérience en développement de bases de données. Pouvez-vous nous parler d'un projet où vous avez utilisé vos compétences en bases de données pour résoudre un problème complexe ?",
+        "answer": "Dans le cadre du projet KSANTE, j'ai été confronté au défi de concevoir une base de données évolutive pour stocker et gérer un grand nombre de données sur les cas de contact COVID-19. J'ai utilisé MongoDB pour sa flexibilité et ses capacités de mise à l'échelle horizontale, ce qui m'a permis de gérer efficacement les données en constante évolution et d'assurer des performances optimales. J'ai également mis en œuvre des techniques de partitionnement et de réplication pour garantir la disponibilité et la cohérence des données."
+    },
+    {
+        "question": "Selon vous, quelles sont les compétences essentielles pour un développeur FullStack efficace ?",
+        "answer": "Je crois que les compétences essentielles pour un développeur FullStack efficace sont : \n- Une solide compréhension des langages front-end et back-end, ainsi que des principes de conception ; \n- Des compétences en matière de bases de données, y compris la modélisation, l'optimisation et la gestion des données ; \n- Des connaissances en matière d'architecture logicielle, de modèles de conception et de bonnes pratiques ; \n- Des compétences en matière de communication et de travail d'équipe, car les développeurs FullStack collaborent souvent avec des concepteurs, des chefs de produit et d'autres parties prenantes ; \n- Un désir continu d'apprendre et de rester à jour avec les dernières technologies et tendances."
+    },
+    {
+        "question": "Au cours de votre expérience chez Kouma Academy SAS, quels défis techniques avez-vous rencontrés et comment les avez-vous surmontés ?",
+        "answer": "L'un des défis techniques que j'ai rencontrés chez Kouma Academy SAS était l'intégration de plusieurs API provenant de différentes sources de données. J'ai utilisé une approche par couches, créant une couche API intermédiaire qui traduisait les requêtes dans un format cohérent, ce qui m'a permis de rationaliser l'intégration et de garantir la cohérence des données."
+    },
+    {
+        "question": "Quels sont les outils ou technologies émergents qui vous intéressent et que vous aimeriez explorer davantage dans le cadre de votre carrière ?",
+        "answer": "Je suis particulièrement intéressé par les technologies d'Intelligence Artificielle (IA) et d'apprentissage automatique (ML). Je pense que ces technologies ont le potentiel de transformer de nombreux aspects de notre vie et de notre travail, et je suis impatient d'explorer leurs applications dans divers domaines, tels que la santé, la finance et les transports."
+    },
+    {
+        "question": "Comment envisagez-vous d'utiliser vos compétences en matière de développement FullStack pour contribuer à notre équipe ?",
+        "answer": "Je crois que mes compétences en développement FullStack peuvent apporter une contribution significative à votre équipe de plusieurs manières. Tout d'abord, je peux utiliser mes connaissances en développement front-end pour créer des interfaces utilisateur attrayantes et intuitives qui amélioreront l'expérience utilisateur de vos produits. Deuxièmement, je peux utiliser mes compétences en développement back-end pour développer des systèmes robustes et évolutifs qui garantiront la fiabilité et la sécurité de vos applications. De plus, ma compréhension des bases de données me permettra de concevoir et de gérer efficacement des bases de données qui stockeront et traiteront les données de manière efficace."
+    },
+    {
+        "question": "Quelles mesures prenez-vous pour rester à jour sur les dernières technologies et tendances en matière de développement ?",
+        "answer": "Afin de rester à jour sur les dernières technologies et tendances en matière de développement, je lis régulièrement des articles de blog, des documentations techniques et participe à des webinaires et des conférences. Je suis également un membre actif des communautés en ligne, telles que les forums et les groupes de discussion, où je peux échanger avec d'autres développeurs et apprendre de leurs expériences."
+    }
+]

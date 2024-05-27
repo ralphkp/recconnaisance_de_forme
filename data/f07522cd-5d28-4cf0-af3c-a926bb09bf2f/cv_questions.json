@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Pouvez-vous nous en dire plus sur votre expérience en tant que développeur Full Stack chez KOUMA ACADEMY SAS ?",
+        "answer": "Chez KOUMA ACADEMY SAS, j'ai travaillé sur le développement front-end et back-end de plusieurs projets, notamment des applications web et mobiles. J'ai utilisé un éventail de technologies, notamment HTML, CSS, JavaScript, Python et NodeJs, ainsi que des bases de données telles que MySQL, MongoDB et PostgreSQL."
+    },
+    {
+        "question": "Quel a été votre rôle en tant que Responsable Technique du projet KSANTE ?",
+        "answer": "En tant que Responsable Technique du projet KSANTE, j'ai dirigé l'équipe technique chargée du développement et de la mise en œuvre de la plateforme nationale de surveillance du Covid-19. J'ai travaillé en étroite collaboration avec les parties prenantes pour définir les besoins fonctionnels et techniques, et j'ai supervisé la conception, le développement et le déploiement de la plateforme."
+    },
+    {
+        "question": "Pouvez-vous nous parler de votre projet académique sur la prédiction de la maladie à virus Ebola ?",
+        "answer": "Dans mon projet académique, j'ai utilisé un modèle de Deep Learning basé sur les données épidémiologiques pour prédire la propagation de la maladie à virus Ebola en Guinée. J'ai utilisé des techniques avancées de traitement des données, ainsi que des algorithmes de Machine Learning, pour développer un modèle capable d'identifier les facteurs de risque et de prédire la probabilité d'infection dans différentes régions géographiques."
+    },
+    {
+        "question": "Quelles sont vos compétences en matière de développement back-end ?",
+        "answer": "J'ai développé des compétences solides en développement back-end lors de mon expérience chez KOUMA ACADEMY SAS. J'ai utilisé des langages tels que Python et NodeJs, ainsi que des frameworks comme Django et Flask, pour créer des applications web et des API robustes. J'ai également travaillé avec diverses bases de données, notamment MySQL, MongoDB et PostgreSQL, pour gérer et stocker des données."
+    },
+    {
+        "question": "Pouvez-vous m'en dire plus sur votre stage alterné au laboratoire de -AICR-ITI ?",
+        "answer": "Lors de mon stage alterné au laboratoire de -AICR-ITI, j'ai travaillé sur un projet de recherche lié à l'intelligence artificielle et à la santé. J'ai utilisé des techniques de traitement du langage naturel (NLP) et de Machine Learning pour développer un système capable d'extraire et d'analyser des informations médicales à partir de documents textuels."
+    },
+    {
+        "question": "Dans quels secteurs d'activité avez-vous acquis de l'expérience en tant que développeur FullStack ?",
+        "answer": "En tant que développeur FullStack chez KOUMA ACADEMY SAS, j'ai travaillé sur des projets dans divers secteurs d'activité, notamment l'éducation, la santé et les services financiers. J'ai développé des solutions informatiques pour des clients tels que des établissements d'enseignement, des hôpitaux et des institutions financières."
+    },
+    {
+        "question": "Quelles sont vos compétences en matière de développement front-end ?",
+        "answer": "En tant que développeur FullStack, je maîtrise un large éventail de technologies front-end. Je suis particulièrement compétent dans l'utilisation de HTML, CSS, JavaScript, BootStrap et React. J'ai une solide compréhension des principes de conception réactive et des meilleures pratiques de l'expérience utilisateur."
+    },
+    {
+        "question": "Pouvez-vous me décrire votre projet académique sur l'analyse de l'impact des variables socio-éducatives sur les performances académiques des étudiants ?",
+        "answer": "Dans mon projet académique, j'ai utilisé des techniques de Machine Learning et d'analyse de données pour étudier l'impact de diverses variables socio-éducatives sur les performances académiques des étudiants. J'ai collecté un ensemble de données auprès d'étudiants et j'ai utilisé des algorithmes de régression et de classification pour identifier les facteurs qui influencent le plus leurs notes."
+    },
+    {
+        "question": "Quels sont vos projets académiques dans le domaine de la fouille de données ?",
+        "answer": "J'ai mené plusieurs projets académiques dans le domaine de la fouille de données. L'un de mes projets les plus importants consistait à développer un modèle de Deep Learning pour prédire la propagation de la maladie à virus Ebola en Guinée. J'ai utilisé des données épidémiologiques et des techniques d'apprentissage automatique pour créer un modèle capable d'identifier les zones à haut risque et de fournir des informations précieuses aux décideurs."
+    },
+    {
+        "question": "Pouvez-vous nous parler de votre expérience de développement d'applications Android ?",
+        "answer": "Bien que je n'aie pas de projets professionnels spécifiques liés au développement d'applications Android, je possède des connaissances de base dans ce domaine. J'ai suivi des cours en ligne et réalisé des projets personnels pour améliorer mes compétences. Je suis familier avec le langage de programmation Java, le SDK Android et les outils de développement tels qu'Android Studio."
+    }
+]

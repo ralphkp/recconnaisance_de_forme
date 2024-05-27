@@ -49,7 +49,7 @@ def generate_questions(model, data, data_type):
     for i in range(10):
         # Prompt amélioré avec un exemple du JSON d'entrée
         prompt = f"""
-        Utilise les informations du document {data_type} (format JSON) pour générer une paire question-réponse dans le format JSON suivant:
+        Utilise les informations du document {data_type} (format JSON) pour générer une paire question-réponse digne pour un entretien  dans le format JSON suivant:
         {{
           "question": "Question ici?",
           "answer": "Réponse ici."
