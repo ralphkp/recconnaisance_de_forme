@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Quelles sont les principales responsabilités que vous attendez du stagiaire ?",
+        "answer": "Le stagiaire sera chargé d'extraire les caractéristiques topologiques de surface, d'appliquer l'analyse de données topologiques, de générer des diagrammes de persistance, de prétraiter les données pour l'apprentissage automatique, de développer et d'entraîner des modèles d'apprentissage automatique, et d'évaluer et d'interpréter leurs performances."
+    },
+    {
+        "question": "Quelles sont les compétences techniques en Intelligence Artificielle et Apprentissage Automatique que l'entreprise recherche chez le candidat ?",
+        "answer": "Le candidat doit maîtriser Python, le traitement de données, les algorithmes d'apprentissages (méthodes classiques, apprentissage profond, CNN), et les frameworks IA comme PyTorch. Il doit également avoir des compétences en mesures et visualisation (matplotlib, seaborn)."
+    },
+    {
+        "question": "Quelles sont les responsabilités principales que vous attendez du stagiaire ?",
+        "answer": "Le stagiaire sera chargé d'extraire les caractéristiques topologiques de surface, d'appliquer l'analyse de données topologiques, de générer des diagrammes de persistance, de prétraiter les données pour l'apprentissage automatique, de développer et d'entraîner des modèles d'apprentissage automatique, et d'évaluer et d'interpréter leurs performances."
+    },
+    {
+        "question": "Quelles sont les connaissances et compétences spécifiques en Intelligence Artificielle et Apprentissage Automatique que vous recherchez chez le candidat ?",
+        "answer": "Le candidat doit maîtriser Python, le traitement de données, les algorithmes d'apprentissages (méthodes classiques, apprentissage profond, CNN), et les frameworks IA comme PyTorch."
+    },
+    {
+        "question": "Quelle est la durée et la période du stage ?",
+        "answer": "Le stage débutera début 2024 et durera 6 mois."
+    },
+    {
+        "question": "Quels sont les types d'algorithmes d'apprentissage automatique que vous maîtrisez ?",
+        "answer": "Je maîtrise les méthodes classiques d'apprentissage automatique telles que les arbres de décision, les SVM et les algorithmes d'ensemble. Je suis également compétent en apprentissage profond, en particulier avec les réseaux de neurones convolutifs (CNN)."
+    },
+    {
+        "question": "Quelles sont les bibliothèques ou frameworks d'apprentissage automatique que vous avez utilisés dans le passé ?",
+        "answer": "J'ai de l'expérience avec plusieurs bibliothèques et frameworks d'apprentissage automatique, notamment scikit-learn, TensorFlow et PyTorch."
+    },
+    {
+        "question": "Êtes-vous familier avec les mesures et la visualisation de données ?",
+        "answer": "Oui, je suis à l'aise avec les mesures et la visualisation de données. J'utilise régulièrement des bibliothèques telles que matplotlib et seaborn pour générer des graphiques et des tableaux pour analyser et présenter des données."
+    },
+    {
+        "question": "Quel est votre niveau de maîtrise de Python ?",
+        "answer": "Je maîtrise Python et je l'utilise régulièrement pour le traitement des données, l'analyse et la visualisation."
+    },
+    {
+        "question": "Êtes-vous familier avec les techniques de traitement des données ?",
+        "answer": "Oui, je suis familier avec les techniques de traitement des données. J'ai de l'expérience dans la collecte, le nettoyage, la préparation et l'analyse de données à l'aide d'outils tels que Pandas et NumPy."
+    }
+]

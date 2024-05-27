@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Parlez-nous de votre expérience en tant que développeur FullStack chez KOUMA ACADEMY SAS.",
+        "answer": "Chez KOUMA ACADEMY SAS, j'ai travaillé sur le développement Front-End et Back-End en utilisant diverses technologies, notamment HTML, XML, CSS, Bootstrap, JavaScript, Python, NodeJs et des bases de données (MySQL, MongoDB, PostgreSQL)."
+    },
+    {
+        "question": "Quelles sont vos principales compétences techniques acquises en tant que développeur FullStack ?",
+        "answer": "Mes principales compétences techniques comprennent le développement Front-End (HTML, XML, CSS, Bootstrap, JavaScript) et Back-End (Python, NodeJs), ainsi que la maîtrise des bases de données (MySQL, MongoDB, PostgreSQL)."
+    },
+    {
+        "question": "Parlez-nous de votre parcours académique en informatique.",
+        "answer": "J'ai obtenu une Licence Professionnelle en Génie Informatique de l'Université privée Mahatma Gandhi en Guinée-Conakry, puis j'ai poursuivi mes études avec un Master en Informatique, Spécialité Systèmes Intelligents et Multimédia à l'University National of Vietnam && Université de la Rochelle."
+    },
+    {
+        "question": "Pourriez-vous nous en dire plus sur votre expérience en tant que Responsable Technique du projet KSANTE ?",
+        "answer": "En tant que Responsable Technique du projet KSANTE, j'ai contribué à la plateforme nationale de surveillance du Covid-19, développée pour l'Agence Nationale de Sécurité Sanitaire. J'ai notamment participé à la mise en place d'outils de géolocalisation, de suivi à distance et de gestion des cas contact au Covid-19 en Guinée."
+    },
+    {
+        "question": "Quelles langues maîtrisez-vous et à quel niveau ?",
+        "answer": "Je maîtrise le français, ma langue maternelle, ainsi que l'anglais et le vietnamien."
+    },
+    {
+        "question": "Quelles sont vos principales compétences en développement Front-End et Back-End ?",
+        "answer": "En développement Front-End, je maîtrise HTML, XML, CSS, Bootstrap et JavaScript. En développement Back-End, j'ai de l'expérience avec Python, NodeJs et les bases de données MySQL, MongoDB et PostgreSQL."
+    },
+    {
+        "question": "Pourriez-vous nous parler de votre expérience en tant que Développeur FullStack chez KOUMA ACADEMY SAS ?",
+        "answer": "Chez KOUMA ACADEMY SAS, j'ai travaillé sur le développement Front-End (HTML, XML, CSS, Bootstrap, JavaScript) et Back-End (Python, NodeJs) d'applications web et mobiles. J'ai également participé à la gestion des bases de données (MySQL, MongoDB, PostgreSQL)."
+    },
+    {
+        "question": "Quelles sont vos principales compétences en développement d'applications mobiles ?",
+        "answer": "J'ai de l'expérience dans le développement d'applications mobiles Android utilisant Java et Kotlin. Je maîtrise également les outils et technologies tels que Scala, MongoDB et Elasticsearch pour le développement d'applications mobiles."
+    },
+    {
+        "question": "Pouvez-vous nous donner un exemple de projet universitaire que vous avez réalisé en fouille de données ?",
+        "answer": "J'ai réalisé un projet de prédiction de la maladie à virus Ebola en Guinée à l'aide d'un modèle de Deep Learning basé sur les données épidémiologiques. Ce projet a impliqué la collecte, le traitement et l'analyse de données épidémiologiques pour construire un modèle prédictif."
+    },
+    {
+        "question": "Pourriez-vous nous parler de votre expérience en tant que Responsable Technique du projet KSANTE ?",
+        "answer": "En tant que Responsable Technique du projet KSANTE, j'ai été responsable de la supervision du développement, du déploiement et de la maintenance de la plateforme nationale de surveillance du Covid-19. Cette plateforme comprenait des outils de géolocalisation, de suivi à distance et de gestion des cas contact au Covid-19 en Guinée."
+    }
+]

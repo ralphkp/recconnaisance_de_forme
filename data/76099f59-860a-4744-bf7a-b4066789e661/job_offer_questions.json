@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Quelles techniques envisagez-vous d'utiliser pour extraire les caractéristiques topologiques de surface à partir d'images de profilomètres optiques ?",
+        "answer": "Je commencerai par utiliser le traitement d'images pour extraire les caractéristiques topologiques de surface. Ensuite, j'appliquerai l'analyse de données topologiques (ATD) aux fonctions définies sur le profil de rugosité pour estimer les caractéristiques de ces fonctions, telles que le nombre et la pertinence des extrema locaux."
+    },
+    {
+        "question": "Comment comptez-vous générer un grand ensemble de données de rugosité de surface ?",
+        "answer": "J'utiliserai l'analyse de données topologiques (ATD), un outil efficace pour estimer la structure géométrique des profils de surface. En appliquant l'ATD à des fonctions définies sur le profil de rugosité, je pourrai estimer les caractéristiques de ces fonctions, telles que le nombre et la pertinence des extrema locaux."
+    },
+    {
+        "question": "Quelles mesures envisagez-vous de prendre pour suivre expérimentalement l'évolution des fissures dans les assemblages collés ?",
+        "answer": "J'utiliserai des essais d'adhérence par clivage en coin sur des assemblages collés de substrats de différentes rugosités de surface. Cette méthode me permettra de suivre l'évolution des fissures dans l'assemblage et de relier ces évolutions aux paramètres de traitement de surface."
+    },
+    {
+        "question": "Quelles architectures de réseaux de neurones envisagez-vous d'utiliser pour prédire l'évolution des fissures dans les assemblages collés ?",
+        "answer": "Je me concentrerai sur les architectures récentes de transformateurs, conçues pour gérer les données d'apprentissage séquentielles. Ces architectures intègrent des mécanismes d'attention, des intégrations positionnelles, un traitement multi-échelle et une opération de convolution, qui sont essentiels pour capturer les relations complexes et les dépendances temporelles dans les données."
+    },
+    {
+        "question": "Quelles mesures envisagez-vous de prendre pour réduire le nombre d'essais d'adhérence nécessaires ?",
+        "answer": "Je prévois d'utiliser des réseaux de neurones pour prédire l'évolution des fissures au cœur de l'assemblage en fonction des rugosités de surface. Cela permettra de réduire considérablement le nombre d'essais d'adhérence nécessaires, car je pourrai identifier les combinaisons de paramètres de surface qui sont les plus susceptibles de conduire à une adhérence optimale."
+    },
+    {
+        "question": "Quelles sont les principales différences entre les réseaux neuronaux convolutifs (CNN) et les transformateurs ?",
+        "answer": "Les CNN sont conçus pour traiter des données structurées sous forme de grille, telles que des images. Ils utilisent des opérations de convolution pour extraire des caractéristiques spatiales et exploitent les structures locales dans les données. Les transformateurs, en revanche, sont conçus pour traiter des données séquentielles, telles que du texte ou des séries temporelles. Ils utilisent des mécanismes d'attention et des intégrations positionnelles pour capturer les relations et les dépendances à long terme dans les données."
+    },
+    {
+        "question": "Quelles techniques envisagez-vous d'utiliser pour extraire les caractéristiques topologiques de surface à partir d'images de profilométrie optique ?",
+        "answer": "Je commencerai par utiliser le traitement d'images pour extraire les caractéristiques topologiques de surface. Ensuite, j'appliquerai l'analyse de données topologiques (ATD) à des fonctions définies sur le profil de rugosité afin d'estimer les caractéristiques de ces fonctions, telles que le nombre et la pertinence des extrema locaux."
+    },
+    {
+        "question": "Comment envisagez-vous d'utiliser les techniques d'intelligence artificielle pour prédire l'évolution des fissures dans les assemblages collés ?",
+        "answer": "Je prévois d'utiliser des réseaux de neurones pour prédire l'évolution des fissures au cœur de l'assemblage en fonction des rugosités de surface. Ces réseaux de neurones seront entraînés sur un ensemble de données généré à partir d'essais d'adhérence par clivage en coin sur des assemblages collés de substrats de différentes rugosités de surface."
+    },
+    {
+        "question": "Quelles sont les caractéristiques clés des architectures de transformateurs qui les rendent adaptées au traitement de données séquentielles ?",
+        "answer": "Les transformateurs utilisent des mécanismes d'attention, des intégrations positionnelles et un traitement multi-échelle. Ces caractéristiques leur permettent de capturer les relations et les dépendances à long terme dans les données, ce qui est essentiel pour traiter les données séquentielles telles que le texte et les séries temporelles."
+    },
+    {
+        "question": "Quels sont les avantages et les inconvénients de l'utilisation de réseaux de neurones convolutifs (CNN) pour traiter des données d'image ?",
+        "answer": "**Avantages des CNN pour les données d'image :**\n\n* Capacités d'apprentissage de caractéristiques : les CNN peuvent automatiquement apprendre des caractéristiques hiérarchiques à partir des données d'image.\n* Invariance translationnelle : les CNN sont invariables aux petites translations de l'image d'entrée, ce qui les rend robustes aux variations de position des objets.\n* Partage de poids : les CNN utilisent le partage de poids, ce qui réduit le nombre de paramètres et améliore l'efficacité du calcul.\n\n**Inconvénients des CNN pour les données d'image :**\n\n* Champs réceptifs limités : chaque neurone d'un CNN a un champ réceptif limité, ce qui peut limiter la capacité du réseau à capturer des dépendances à longue distance.\n* Sensibilité aux rotations et aux déformations : les CNN peuvent être sensibles aux rotations et aux déformations des objets dans l'image d'entrée."
+    }
+]

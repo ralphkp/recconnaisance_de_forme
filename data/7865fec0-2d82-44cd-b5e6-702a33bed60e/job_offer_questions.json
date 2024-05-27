@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Quelles sont les deux principales approches utilisées pour identifier les communautés sur les réseaux sociaux, et en quoi diffèrent-elles ?",
+        "answer": "Les deux principales approches sont l'exploitation de la similarité entre les individus et l'exploitation des liens sociaux explicites. La première se concentre sur les caractéristiques des individus, tandis que la seconde se concentre sur la structure du réseau."
+    },
+    {
+        "question": "Pourquoi est-il difficile d'évaluer la pertinence des communautés identifiées sur les réseaux sociaux ?",
+        "answer": "Parce que les scores élevés calculés à partir de critères courants ne correspondent pas toujours à des communautés pertinentes, et que des communautés très différentes peuvent avoir des scores très proches."
+    },
+    {
+        "question": "Quelles sont les deux approches principales utilisées pour identifier les communautés sur les réseaux sociaux ?",
+        "answer": "L'exploitation de la similarité entre les individus et l'exploitation des liens sociaux explicites."
+    },
+    {
+        "question": "Quels sont les inconvénients des méthodes courantes d'évaluation de la pertinence des communautés identifiées sur les réseaux sociaux ?",
+        "answer": "Les scores élevés calculés à partir de ces méthodes ne correspondent pas toujours à des communautés pertinentes, et des communautés très différentes peuvent avoir des scores très proches."
+    },
+    {
+        "question": "Quelles sont les différences entre les deux principales approches d'identification des communautés sur les réseaux sociaux ?",
+        "answer": "La première approche exploite la similarité entre les individus, tandis que la seconde exploite les liens sociaux explicites entre eux."
+    },
+    {
+        "question": "Pourquoi est-il difficile d'évaluer la pertinence des communautés identifiées sur les réseaux sociaux ?",
+        "answer": "Parce qu'un score élevé calculé à partir des critères courants ne correspond pas toujours à une communauté pertinente, et que des communautés très différentes peuvent avoir des scores très proches."
+    },
+    {
+        "question": "Comment évaluer la pertinence des communautés identifiées sur les réseaux sociaux ?",
+        "answer": "En vérifiant que les individus au sein de chaque groupe sont fortement similaires et que la similarité entre les individus de groupes différents est faible."
+    },
+    {
+        "question": "Quelles sont les limites des approches actuelles d'évaluation de la pertinence des communautés identifiées sur les réseaux sociaux ?",
+        "answer": "Les scores élevés calculés à partir des critères courants ne correspondent pas toujours à des communautés pertinentes, et des communautés très différentes peuvent avoir des scores très proches."
+    },
+    {
+        "question": "Comment les approches actuelles d'évaluation de la pertinence des communautés identifiées sur les réseaux sociaux sont-elles limitées ?",
+        "answer": "Les scores élevés calculés à partir des critères courants ne correspondent pas toujours à des communautés pertinentes, et des communautés très différentes peuvent avoir des scores très proches."
+    },
+    {
+        "question": "Pourquoi est-il difficile d'évaluer la pertinence des communautés identifiées sur les réseaux sociaux ?",
+        "answer": "Parce que les scores élevés calculés à partir des critères courants ne correspondent pas toujours à des communautés pertinentes, et que des communautés très différentes peuvent avoir des scores très proches."
+    }
+]

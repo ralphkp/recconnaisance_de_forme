@@ -11,6 +11,7 @@ Thumbs.db
 /dist/
 /out/
 labo/
+data/
 
 # Ignore dependencies and package managers
 /node_modules/

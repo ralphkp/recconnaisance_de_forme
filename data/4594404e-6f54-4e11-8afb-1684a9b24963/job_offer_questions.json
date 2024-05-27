@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Quel type d'apprentissage automatique avez-vous utilisé principalement au cours de votre formation ?",
+        "answer": "Algorithmes d'apprentissages (théorie : méthodes classiques, apprentissage profond, CNN ; pratique : framework IA comme PyTorch)"
+    },
+    {
+        "question": "Pourriez-vous nous donner un exemple spécifique de projet ou de recherche dans lequel vous avez utilisé l'analyse de données topologiques (ATD) ?",
+        "answer": "Je ne trouve aucune mention de l'analyse de données topologiques (ATD) dans les informations fournies."
+    },
+    {
+        "question": "Pouvez-vous décrire une situation où vous avez utilisé des mesures et des techniques de visualisation (par exemple, matplotlib, seaborn) pour analyser des données complexes ?",
+        "answer": "Je ne trouve aucune mention de mesures et de techniques de visualisation (par exemple, matplotlib, seaborn) dans les informations fournies."
+    },
+    {
+        "question": "Quelles sont vos expériences en matière d'apprentissage profond, en particulier avec des frameworks tels que PyTorch ?",
+        "answer": "Je ne trouve aucune mention de l'apprentissage profond ou de frameworks spécifiques tels que PyTorch dans les informations fournies."
+    },
+    {
+        "question": "Avez-vous une expérience dans l'utilisation de techniques de traitement d'image pour extraire des caractéristiques de données complexes ?",
+        "answer": "Je ne trouve aucune mention de techniques de traitement d'image dans les informations fournies."
+    },
+    {
+        "question": "Pouvez-vous décrire un projet ou une expérience où vous avez utilisé des techniques d'apprentissage supervisé pour résoudre un problème spécifique ?",
+        "answer": "Je ne trouve aucune mention de techniques d'apprentissage supervisé dans les informations fournies."
+    },
+    {
+        "question": "Quelles sont vos expériences dans l'utilisation de bibliothèques ou de frameworks de visualisation de données, telles que matplotlib ou seaborn ?",
+        "answer": "Je ne trouve aucune mention de bibliothèques ou de frameworks de visualisation de données dans les informations fournies."
+    },
+    {
+        "question": "Selon votre expérience, quels sont les défis courants liés à l'utilisation de l'apprentissage profond pour résoudre des tâches d'apprentissage automatique ?",
+        "answer": "Je ne trouve aucune mention de l'apprentissage profond ou de l'apprentissage automatique dans les informations fournies."
+    },
+    {
+        "question": "Avez-vous de l'expérience dans l'application de techniques topologiques, telles que l'analyse de données topologiques (ATD), à des problèmes complexes ?",
+        "answer": "Je ne trouve aucune mention de l'analyse de données topologiques (ATD) ou de techniques topologiques dans les informations fournies."
+    },
+    {
+        "question": "Quelles sont vos expériences dans l'utilisation de techniques d'apprentissage supervisé pour résoudre des problèmes complexes ?",
+        "answer": "Je ne trouve aucune mention de techniques d'apprentissage supervisé dans les informations fournies."
+    }
+]

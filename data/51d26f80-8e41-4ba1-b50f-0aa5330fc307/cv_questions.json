@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Pouvez-vous nous parler de votre expérience en tant que responsable technique du projet KSANTE ?",
+        "answer": "En tant que responsable technique du projet KSANTE, j'ai contribué au développement de la plateforme nationale de surveillance du Covid-19 en Guinée. J'ai dirigé une équipe d'ingénieurs pour concevoir et mettre en œuvre des solutions innovantes de géolocalisation, de suivi à distance et de gestion des cas contacts, garantissant une surveillance et une intervention efficaces pendant la pandémie."
+    },
+    {
+        "question": "Comment avez-vous utilisé vos connaissances en matière de fouille de données dans le cadre de vos projets académiques ?",
+        "answer": "Dans mes projets académiques, j'ai utilisé des techniques de fouille de données pour prédire la maladie à virus Ebola et analyser l'impact des variables socio-éducatives sur les performances académiques des étudiants. J'ai utilisé des algorithmes de Deep Learning, de classification et de régression pour construire des modèles prédictifs à partir de grands ensembles de données, ce qui m'a permis d'identifier des tendances et des facteurs clés liés à la propagation de la maladie et aux résultats scolaires."
+    },
+    {
+        "question": "Quelles sont vos expériences en matière de développement de bases de données ?",
+        "answer": "Dans mon expérience professionnelle, j'ai utilisé des bases de données telles que MySQL, MongoDB et PostgreSQL pour le développement d'applications back-end. J'ai conçu et implémenté des schémas de base de données, optimisé les requêtes et assuré l'intégrité et la sécurité des données dans des environnements de production."
+    },
+    {
+        "question": "Pouvez-vous nous parler de votre expérience en tant que développeur front-end ?",
+        "answer": "En tant que développeur front-end, j'ai utilisé des technologies telles que HTML, XML, CSS, Bootstrap et JavaScript pour concevoir et développer des interfaces utilisateur interactives et réactives. J'ai une solide compréhension des principes de conception Web, de l'optimisation des performances et de l'accessibilité, ce qui me permet de créer des expériences utilisateur exceptionnelles pour divers appareils et navigateurs."
+    },
+    {
+        "question": "Comment avez-vous contribué au projet de salle de classe intelligente en tant que responsable technique ?",
+        "answer": "En tant que responsable technique du projet de salle de classe intelligente, j'ai dirigé une équipe d'ingénieurs pour concevoir et mettre en œuvre l'interface administrateur. J'ai utilisé des technologies telles que Python, Django et Flask pour créer une interface conviviale et efficace, permettant aux administrateurs de gérer les cours, les étudiants et les ressources de manière centralisée. J'ai également travaillé en étroite collaboration avec les concepteurs pédagogiques pour garantir que l'interface répondait aux besoins spécifiques du projet."
+    },
+    {
+        "question": "Pouvez-vous nous parler de vos compétences en matière de développement d'applications mobiles ?",
+        "answer": "J'ai développé des applications mobiles pour Android en utilisant des technologies telles que Java, Kotlin et Android Studio. Je maîtrise les concepts de conception d'interface utilisateur, d'optimisation des performances et d'intégration avec des services back-end. J'ai travaillé sur des projets nécessitant l'utilisation de capteurs, de géolocalisation et de notifications push, ce qui me permet de créer des applications mobiles interactives et fonctionnelles."
+    },
+    {
+        "question": "Comment avez-vous utilisé vos connaissances en matière de développement Android dans le cadre de vos projets professionnels ?",
+        "answer": "Dans mon expérience professionnelle, j'ai utilisé mes compétences en développement Android pour créer des fonctionnalités mobiles essentielles pour diverses applications. J'ai développé des interfaces utilisateur interactives, intégré des services de localisation, implémenté des notifications push et optimisé les performances pour garantir une expérience utilisateur fluide et efficace."
+    },
+    {
+        "question": "Dans quels environnements de développement avez-vous le plus d'expérience ?",
+        "answer": "J'ai principalement travaillé dans des environnements de développement basés sur Linux, en utilisant des outils tels que Git, Docker et Kubernetes. Je suis à l'aise avec la gestion des versions, la conteneurisation et le déploiement automatisé dans des environnements cloud."
+    },
+    {
+        "question": "Quels outils et technologies avez-vous utilisés pour développer des applications back-end ?",
+        "answer": "Pour le développement back-end, j'ai utilisé des langages tels que Python et Node.js, ainsi que des frameworks tels que Django et Flask. J'ai également travaillé avec des bases de données comme MySQL, MongoDB et PostgreSQL, et utilisé des outils comme Elasticsearch et Google Cloud Platform pour la recherche et le stockage de données."
+    },
+    {
+        "question": "Quelles sont vos expériences dans le développement d'applications mobiles ?",
+        "answer": "J'ai de l'expérience dans le développement d'applications mobiles à l'aide de technologies telles que Android Studio, Java et Kotlin. J'ai travaillé sur des projets impliquant la conception d'interfaces utilisateur, l'intégration de services back-end, l'optimisation des performances et la mise en œuvre de fonctionnalités basées sur les capteurs et la localisation."
+    }
+]

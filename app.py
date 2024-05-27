@@ -97,6 +97,7 @@ def upload_files():
     job_offer_sections = segment_text_into_sections(job_offer_text, "job_offer")
     # Calcul de la similarité
     similarity_score = compare_similarity(cv_sections, job_offer_sections)
+    
 
   
     cv_json_path = os.path.join(session_folder, 'cv_results.json')

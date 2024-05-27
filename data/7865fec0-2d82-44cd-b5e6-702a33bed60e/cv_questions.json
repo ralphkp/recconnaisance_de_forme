@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Parlez-nous de vos expériences de développement Fullstack chez KOUMA ACADEMY SAS.",
+        "answer": "Chez KOUMA ACADEMY SAS, j'ai acquis une expérience approfondie en développement Fullstack, notamment en développement Front-End (HTML, XMl, CSS, BootStrap, JavaScript) et en développement Back-End (Python, NodeJs). J'ai également travaillé sur des bases de données (MySql, MongoDB, PostgreSQL) et participé à des projets importants tels que la plateforme nationale de surveillance du Covid-19, KSANTE."
+    },
+    {
+        "question": "Pouvez-vous nous donner un aperçu de vos compétences en matière de développement SQL et de langages tels que Python-Django et Flask ?",
+        "answer": "Je possède une solide expérience en développement SQL et j'ai travaillé avec Python-Django et Flask pour divers projets. Par exemple, j'ai utilisé Python-Django pour développer la plateforme nationale de surveillance du Covid-19, KSANTE, et Flask pour créer un système de génération de questionnaires d'entretien basé sur le CV et l'offre d'emploi."
+    },
+    {
+        "question": "Quelles sont vos expériences en matière de projets académiques liés à la fouille de données ?",
+        "answer": "Dans le cadre de mes projets académiques, j'ai travaillé sur plusieurs projets de fouille de données. J'ai notamment prédit la maladie à virus Ebola en Guinée à l'aide d'un modèle de Deep Learning basé sur des données épidémiologiques et analysé l'impact des variables socio-éducatives sur les performances académiques des étudiants."
+    },
+    {
+        "question": "Parlez-nous de votre expérience en tant que Responsable Technique du projet KSANTE.",
+        "answer": "En tant que Responsable Technique du projet KSANTE, j'ai été chargé du développement et de la mise en œuvre de cette plateforme nationale de surveillance du Covid-19. J'ai également contribué à la mise en place de l'interface administrateur d'un projet de classe intelligente."
+    },
+    {
+        "question": "Quelles sont vos principaux atouts en tant que développeur ?",
+        "answer": "En tant que développeur, mes principaux atouts incluent l'innovation continue, la résolution de problèmes, la communication claire, le travail d'équipe, la maîtrise technique, l'enthousiasme et la rigueur."
+    },
+    {
+        "question": "Quelles sont vos expériences en matière de développement d'applications Android ?",
+        "answer": "Bien que je n'aie pas d'expérience professionnelle directe dans le développement d'applications Android, j'ai acquis des connaissances et des compétences dans ce domaine grâce à des projets académiques et à des formations en ligne."
+    },
+    {
+        "question": "Quels sont vos projets académiques en matière de fouille de données ?",
+        "answer": "Dans le cadre de mes projets académiques, j'ai travaillé sur la prédiction de la maladie à virus Ebola en Guinée à l'aide d'un modèle de Deep Learning basé sur des données épidémiologiques, ainsi que sur l'analyse de l'impact des variables socio-éducatives sur les performances académiques des étudiants."
+    },
+    {
+        "question": "Quelles sont vos compétences en matière de développement de bases de données ?",
+        "answer": "J'ai une expérience pratique dans le développement de bases de données, notamment en utilisant MySQL, MongoDB et PostgreSQL."
+    },
+    {
+        "question": "Quelles sont vos expériences en matière de développement avec Django ?",
+        "answer": "J'ai acquis des compétences en développement avec Django au cours de mes projets académiques, notamment dans le cadre du développement d'un simulateur d'entretien qui génère des questionnaires en fonction du CV et de l'offre d'emploi."
+    },
+    {
+        "question": "Parlez-nous de votre expérience professionnelle en tant que développeur Fullstack chez KOUMA ACADEMY SAS.",
+        "answer": "Chez KOUMA ACADEMY SAS, j'ai acquis une expérience polyvalente en développement Fullstack, notamment dans le développement Front-End (HTML, XMl, CSS, BootStrap, JavaScript) et Back-End (Python, NodeJs), ainsi que dans le développement de bases de données (MySql, MongoDB, PostgreSQL)."
+    }
+]

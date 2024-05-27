@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Quel a été votre rôle en tant que Responsable Technique du projet KSANTE ?",
+        "answer": "J'étais responsable du développement et de la maintenance de la plateforme de surveillance COVID-19, qui comprenait des fonctionnalités de géolocalisation, de suivi à distance et de gestion des cas contacts."
+    },
+    {
+        "question": "Quelles technologies et méthodologies avez-vous utilisées dans votre projet de prédiction de la maladie à virus Ebola en Guinée ?",
+        "answer": "J'ai utilisé des modèles de Deep Learning basés sur les données épidémiologiques, ainsi que des outils tels que scikit-learn, TensorFlow et Keras."
+    },
+    {
+        "question": "Parlez-moi de votre expérience dans le développement de systèmes de gestion de bases de données.",
+        "answer": "J'ai travaillé avec plusieurs bases de données telles que MySQL, MongoDB et PostgreSQL, développant des schémas, optimisant les requêtes et assurant l'intégrité des données dans des applications de production."
+    },
+    {
+        "question": "Parlez-moi de votre expérience dans le développement d'applications Android.",
+        "answer": "J'ai développé des applications Android en utilisant des technologies telles que Java, Kotlin et le SDK Android. J'ai de l'expérience dans la conception d'interfaces utilisateur, l'implémentation de fonctionnalités et la gestion de données."
+    },
+    {
+        "question": "Parlez-moi de votre expérience dans le développement d'interfaces utilisateur pour les applications mobiles.",
+        "answer": "J'ai une expérience dans la conception et le développement d'interfaces utilisateur pour les applications Android, en utilisant des outils tels que XML, Java et Kotlin. J'ai travaillé sur des applications nécessitant des interfaces conviviales et intuitives."
+    },
+    {
+        "question": "Quelles étaient vos principales responsabilités en tant que Responsable Technique du projet KSANTE ?",
+        "answer": "J'étais responsable de la conception, du développement et du déploiement de la plateforme de surveillance COVID-19, ainsi que de la gestion de l'équipe de développement et de la coordination avec les parties prenantes."
+    },
+    {
+        "question": "Quelles méthodologies de développement logiciel avez-vous utilisées dans votre travail ?",
+        "answer": "J'ai utilisé des méthodologies agiles telles que Scrum et Kanban, ainsi que des principes de développement piloté par les tests (TDD) pour assurer la qualité et la livraison rapide des fonctionnalités."
+    },
+    {
+        "question": "Quels frameworks et bibliothèques utilisez-vous pour le développement d'applications Node.js ?",
+        "answer": "J'utilise des frameworks tels qu'Express.js et NestJS, ainsi que des bibliothèques comme Mongoose pour MongoDB et Nodemailer pour l'envoi d'e-mails."
+    },
+    {
+        "question": "Parlez-moi de votre expérience dans la conception et le développement d'applications mobiles Android.",
+        "answer": "J'ai conçu et développé des applications mobiles Android natives en utilisant Java et Kotlin. J'ai travaillé sur des applications nécessitant des interfaces utilisateur intuitives, des fonctionnalités de géolocalisation et des intégrations avec des API tierces."
+    },
+    {
+        "question": "Pouvez-vous décrire votre expérience en matière d'intégration de bases de données dans vos projets de développement ?",
+        "answer": "J'ai intégré des bases de données telles que MySQL, MongoDB et PostgreSQL dans mes projets, en utilisant des frameworks comme SQLAlchemy et Mongoose. J'ai également optimisé les requêtes et mis en œuvre des stratégies de mise en cache pour améliorer les performances."
+    }
+]

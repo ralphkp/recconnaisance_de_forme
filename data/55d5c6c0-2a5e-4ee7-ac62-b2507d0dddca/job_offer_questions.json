@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Pouvez-vous nous expliquer comment vous utiliseriez l'analyse de données topologiques (ATD) dans le cadre de ce stage ?",
+        "answer": "Dans un premier temps, j'utiliserai l'ATD pour extraire les caractéristiques topologiques des profils de surface obtenus par profilométrie optique. Ensuite, j'appliquerai l'ATD aux fonctions définies sur les profils de rugosité pour estimer les caractéristiques de ces fonctions, comme le nombre et la pertinence des extrema locaux. Enfin, j'utiliserai l'homologie persistante de l'ATD pour générer des diagrammes de persistance qui permettront de mesurer les structures topologiques à différentes échelles."
+    },
+    {
+        "question": "Quelles sont vos connaissances et expériences en matière de prédiction de l'évolution des fissures à l'aide de réseaux de neurones ?",
+        "answer": "Je suis familiarisé avec les réseaux de neurones et j'ai utilisé des techniques d'apprentissage automatique pour prédire l'évolution des fissures dans les structures. J'ai notamment utilisé des réseaux de neurones convolutifs (CNN) et des transformateurs pour traiter des données séquentielles représentant la propagation des fissures dans le temps."
+    },
+    {
+        "question": "Quelles sont vos expériences en matière d'extraction de caractéristiques topologiques de surface à l'aide de techniques de traitement d'images ?",
+        "answer": "J'ai une expérience pratique de l'utilisation de techniques de traitement d'images pour extraire des caractéristiques topologiques de surface. J'ai notamment utilisé des algorithmes de segmentation d'image et des techniques d'analyse de texture pour identifier et caractériser les caractéristiques de surface telles que les pics, les vallées, les pores et les cavités."
+    },
+    {
+        "question": "Comment envisagez-vous d'utiliser l'homologie persistante dans le cadre de ce stage ?",
+        "answer": "L'homologie persistante est un outil puissant pour mesurer les structures topologiques à différentes échelles. Je prévois de l'utiliser pour générer des diagrammes de persistance à partir de fonctions définies sur les profils de rugosité. Ces diagrammes me permettront d'identifier et de caractériser les caractéristiques topologiques telles que les pics, les vallées, les pores et les cavités. Cette information sera essentielle pour comprendre la relation entre la rugosité de surface et l'évolution des fissures."
+    },
+    {
+        "question": "Comment envisagez-vous d'utiliser les techniques de traitement d'images pour extraire les caractéristiques topologiques de surface ?",
+        "answer": "Je prévois d'utiliser des algorithmes de segmentation d'image pour identifier les différentes régions de la surface, telles que les pics, les vallées et les pores. Ensuite, j'utiliserai des techniques d'analyse de texture pour caractériser ces régions en termes de rugosité, de directionnalité et d'autres propriétés pertinentes. Ces caractéristiques fourniront des informations précieuses sur la topologie de la surface."
+    },
+    {
+        "question": "Comment envisagez-vous d'utiliser les méthodes d'apprentissage automatique pour prédire l'évolution des fissures ?",
+        "answer": "Je prévois d'utiliser des réseaux de neurones, en particulier des réseaux de neurones convolutifs (CNN) et des transformateurs. Je commencerai par entraîner ces modèles sur des données expérimentales de fissures et de caractéristiques de surface. Une fois les modèles entraînés, je les utiliserai pour prédire l'évolution des fissures dans de nouveaux assemblages en fonction de leurs caractéristiques de surface."
+    },
+    {
+        "question": "Quelles sont vos expériences en matière de développement et d'entraînement de modèles d'apprentissage automatique ?",
+        "answer": "J'ai une expérience pratique du développement et de l'entraînement de divers modèles d'apprentissage automatique, notamment des réseaux de neurones convolutifs (CNN), des réseaux de neurones récurrents (RNN) et des transformateurs. J'ai utilisé ces modèles pour résoudre une variété de problèmes, tels que la classification d'images, la prédiction de séries temporelles et le traitement du langage naturel."
+    },
+    {
+        "question": "Quelles sont vos connaissances en matière d'analyse de données topologiques (ATD) ?",
+        "answer": "Je suis familiarisé avec l'ATD et je l'ai utilisée dans plusieurs projets de recherche. En particulier, j'ai utilisé l'ATD pour extraire des caractéristiques topologiques de surfaces à partir de données d'images et j'ai utilisé ces caractéristiques pour prédire les propriétés mécaniques des matériaux."
+    },
+    {
+        "question": "Comment envisagez-vous d'utiliser les techniques de traitement d'images pour extraire les caractéristiques topologiques de surface ?",
+        "answer": "Je prévois d'utiliser des algorithmes de segmentation d'image pour identifier les différentes régions de la surface, telles que les pics, les vallées et les pores. Ensuite, j'utiliserai des techniques d'analyse de texture pour caractériser ces régions en termes de rugosité, de directionnalité et d'autres propriétés pertinentes. Ces caractéristiques fourniront des informations précieuses sur la topologie de la surface."
+    },
+    {
+        "question": "Quelles sont vos expériences en matière d'apprentissage automatique et de réseaux de neurones ?",
+        "answer": "J'ai une solide expérience en apprentissage automatique et en réseaux de neurones. J'ai utilisé ces techniques pour résoudre une variété de problèmes, notamment la classification d'images, la prédiction de séries temporelles et le traitement du langage naturel. Je suis particulièrement compétent dans l'utilisation de frameworks d'apprentissage automatique tels que TensorFlow et PyTorch."
+    }
+]

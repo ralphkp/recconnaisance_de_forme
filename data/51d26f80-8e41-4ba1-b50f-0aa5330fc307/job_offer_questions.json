@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Quelle est votre expérience dans l'utilisation de l'analyse de données topologiques (ATD) pour estimer la structure géométrique des profils de surface ?",
+        "answer": "Bien que mon expérience directe dans l'utilisation de l'ATD pour estimer la structure géométrique des profils de surface soit limitée, j'ai une solide compréhension des concepts fondamentaux de l'ATD et de son application dans le traitement et l'analyse des données topologiques. Je suis désireux d'appliquer mes connaissances et mes compétences à cette tâche, et je suis convaincu que je peux rapidement maîtriser l'utilisation de l'ATD dans ce contexte."
+    },
+    {
+        "question": "Quelles sont vos expériences dans le domaine de l'apprentissage profond et, plus particulièrement, dans l'utilisation de CNN (Convolutional Neural Networks) ?",
+        "answer": "Bien que je n'aie pas d'expérience directe dans l'utilisation de CNN, j'ai une solide compréhension des concepts fondamentaux de l'apprentissage profond et des CNN. J'ai suivi plusieurs cours et lu de nombreux articles de recherche sur le sujet. J'ai également mis en œuvre de petits projets personnels impliquant l'apprentissage profond, mais pas spécifiquement avec des CNN. Je suis convaincu que je peux rapidement maîtriser l'utilisation des CNN dans le cadre de ce stage et contribuer efficacement au projet."
+    },
+    {
+        "question": "Quelles sont vos expériences en matière d'extraction de caractéristiques de surface à partir d'images ?",
+        "answer": "J'ai une expérience limitée dans l'extraction de caractéristiques de surface à partir d'images. J'ai suivi un cours sur le traitement d'images et j'ai travaillé sur un petit projet personnel impliquant l'extraction de caractéristiques de base à partir d'images. Cependant, je suis impatient d'apprendre et d'appliquer des techniques plus avancées dans ce domaine au cours de ce stage."
+    },
+    {
+        "question": "Quelles sont vos expériences en matière de mesure et de visualisation des données ?",
+        "answer": "J'ai une expérience pratique dans la mesure et la visualisation des données à l'aide de bibliothèques Python telles que matplotlib et seaborn. J'ai travaillé sur des projets personnels et universitaires impliquant l'analyse et la représentation graphique de grands ensembles de données. Je suis à l'aise pour manipuler et traiter des données, créer des visualisations informatives et interpréter les résultats."
+    },
+    {
+        "question": "Quelles sont vos expériences en développement de modèles d'apprentissage automatique en utilisant des réseaux de neurones ?",
+        "answer": "Bien que je n'aie pas d'expérience directe en développement de modèles d'apprentissage automatique à l'aide de réseaux de neurones, j'ai une solide compréhension des principes fondamentaux de l'apprentissage automatique et des réseaux de neurones. J'ai suivi plusieurs cours sur le sujet et j'ai réalisé des projets personnels impliquant des techniques d'apprentissage automatique plus simples. Je suis convaincu que je peux rapidement maîtriser le développement de modèles de réseaux de neurones et contribuer efficacement au projet."
+    },
+    {
+        "question": "Quelles sont vos expériences dans l'application de techniques d'apprentissage automatique à des problèmes pratiques dans le domaine industriel ?",
+        "answer": "Bien que je n'aie pas d'expérience directe dans l'application de techniques d'apprentissage automatique à des problèmes pratiques dans le domaine industriel, j'ai travaillé sur des projets personnels et universitaires impliquant l'application de techniques d'apprentissage automatique à des problèmes réels dans d'autres domaines. Je suis convaincu que je peux rapidement transférer mes compétences et mes connaissances à l'environnement industriel et contribuer efficacement au projet."
+    },
+    {
+        "question": "Quelles sont vos expériences dans la manipulation et l'analyse de grands ensembles de données ?",
+        "answer": "J'ai une expérience pratique dans la manipulation et l'analyse de grands ensembles de données à l'aide de bibliothèques Python telles que Pandas, NumPy et Scikit-learn. J'ai travaillé sur des projets universitaires et personnels impliquant le nettoyage, la transformation, l'exploration et la modélisation de grands ensembles de données. Je suis à l'aise pour travailler avec des données structurées et non structurées, et j'ai une bonne compréhension des techniques statistiques et d'apprentissage automatique utilisées pour l'analyse des données."
+    },
+    {
+        "question": "Quelles sont vos expériences dans l'application de méthodes d'apprentissage automatique à des problèmes du monde réel ?",
+        "answer": "Bien que je n'aie pas d'expérience directe dans l'application de méthodes d'apprentissage automatique à des problèmes du monde réel dans un contexte industriel, j'ai travaillé sur des projets universitaires et personnels impliquant l'application de techniques d'apprentissage automatique à divers problèmes pratiques. Je suis convaincu que je peux rapidement transférer mes compétences et mes connaissances au domaine industriel et contribuer efficacement au projet."
+    },
+    {
+        "question": "Quelles sont vos expériences dans le traitement et la visualisation de données ?",
+        "answer": "J'ai une expérience pratique dans le traitement et la visualisation de données à l'aide de bibliothèques Python telles que Pandas, Matplotlib et Seaborn. J'ai travaillé sur des projets personnels et universitaires impliquant le nettoyage, la transformation, l'exploration et la visualisation de grands ensembles de données. Je suis à l'aise pour travailler avec différents types de données et j'ai une bonne compréhension des techniques de visualisation utilisées pour communiquer efficacement les résultats des analyses de données."
+    },
+    {
+        "question": "Quelles sont vos expériences en apprentissage profond, en particulier dans l'utilisation de réseaux de neurones convolutifs (CNN) ?",
+        "answer": "Bien que mon expérience directe dans l'utilisation de CNN soit limitée, j'ai une solide compréhension des concepts fondamentaux de l'apprentissage profond et des CNN. J'ai suivi des cours sur le sujet et j'ai travaillé sur des projets personnels impliquant l'apprentissage automatique plus simple. Je suis convaincu que je peux rapidement maîtriser l'utilisation des CNN dans le cadre de ce stage et contribuer efficacement au projet."
+    }
+]
